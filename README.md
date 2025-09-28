@@ -12,7 +12,7 @@ El diseño incluyó:
 ## 🖼️ Imágenes del diseño
 
 ### Esquemático
-![Esquemático](./img/esquemático.png)
+![Esquemático](./img/esquematico.png)
 
 ### PCB Layout
 ![PCB](./img/pcb.png)
