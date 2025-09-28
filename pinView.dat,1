@@ -1,0 +1,19 @@
+A!NET_NAME!REFDES!PIN_NUMBER!FUNC_LOGICAL_PATH!COMP_DEVICE_TYPE!FUNC_SCH_SIZE!FUNC_HAS_FIXED_SIZE!FUNC_DES!PIN_CDS_PINID!PIN_TERMINATION!PIN_TERM_IDENT!PIN_NET_SHORT!PIN_XNET_PINS!
+J!C:/Users/Javier Calvo/Documents/Cadence Projects/Amplifier - Coursera/Amp.brd!Fri Sep 26 22:12:22 2025!0.0!0.0!297.0!210.0!0.1!millimeters!AMP!10.400000 mil!2!OUT OF DATE!
+S!N15314!J1!1!@amp.schematic1(sch_1):ins15410@\282834-3\.\282834-3.normal\(chips)!282834-3_TE_282834-3_282834-3!!!F4!!!!!!
+S!N15329!J1!2!@amp.schematic1(sch_1):ins15410@\282834-3\.\282834-3.normal\(chips)!282834-3_TE_282834-3_282834-3!!!F4!!!!!!
+S!+12V!J1!3!@amp.schematic1(sch_1):ins15410@\282834-3\.\282834-3.normal\(chips)!282834-3_TE_282834-3_282834-3!!!F4!!!!!!
+S!N14592!R1!1!@amp.schematic1(sch_1):ins14441@amp.\resistor_1.normal\(chips)!RESISTOR_1_RESAD700W45L350D185_5K!!!F3!!!!!!
+S!N14584!R1!2!@amp.schematic1(sch_1):ins14441@amp.\resistor_1.normal\(chips)!RESISTOR_1_RESAD700W45L350D185_5K!!!F3!!!!!!
+S!N15329!R2!1!@amp.schematic1(sch_1):ins14787@amp.\resistor_1.normal\(chips)!RESISTOR_1_RESAD700W45L350D185_10K!!!F2!!!!!!
+S!N14584!R2!2!@amp.schematic1(sch_1):ins14787@amp.\resistor_1.normal\(chips)!RESISTOR_1_RESAD700W45L350D185_10K!!!F2!!!!!!
+S!N14592!R3!1!@amp.schematic1(sch_1):ins14923@amp.\resistor_1.normal\(chips)!RESISTOR_1_RESAD700W45L350D185_1K!!!F1!!!!!!
+S!N15314!R3!2!@amp.schematic1(sch_1):ins14923@amp.\resistor_1.normal\(chips)!RESISTOR_1_RESAD700W45L350D185_1K!!!F1!!!!!!
+S!N14592!U2!2!@amp.schematic1(sch_1):ins16098@lm741j.\lm741j.normal\(chips)!LM741J_DIP775W46P254L1016H508Q8_LM741J!!!F0!!!!!!
+S!!U2!8!@amp.schematic1(sch_1):ins16098@lm741j.\lm741j.normal\(chips)!LM741J_DIP775W46P254L1016H508Q8_LM741J!!!F0!!!!!!
+S!N15329!U2!3!@amp.schematic1(sch_1):ins16098@lm741j.\lm741j.normal\(chips)!LM741J_DIP775W46P254L1016H508Q8_LM741J!!!F0!!!!!!
+S!!U2!1!@amp.schematic1(sch_1):ins16098@lm741j.\lm741j.normal\(chips)!LM741J_DIP775W46P254L1016H508Q8_LM741J!!!F0!!!!!!
+S!!U2!5!@amp.schematic1(sch_1):ins16098@lm741j.\lm741j.normal\(chips)!LM741J_DIP775W46P254L1016H508Q8_LM741J!!!F0!!!!!!
+S!N14584!U2!6!@amp.schematic1(sch_1):ins16098@lm741j.\lm741j.normal\(chips)!LM741J_DIP775W46P254L1016H508Q8_LM741J!!!F0!!!!!!
+S!+12V!U2!7!@amp.schematic1(sch_1):ins16098@lm741j.\lm741j.normal\(chips)!LM741J_DIP775W46P254L1016H508Q8_LM741J!!!F0!!!!!!
+S!N15329!U2!4!@amp.schematic1(sch_1):ins16098@lm741j.\lm741j.normal\(chips)!LM741J_DIP775W46P254L1016H508Q8_LM741J!!!F0!!!!!!

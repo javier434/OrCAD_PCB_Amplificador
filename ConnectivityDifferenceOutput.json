@@ -1,0 +1,26 @@
+{
+	"Gate Swap" : [],
+	"Ref Des" : [],
+	"Pin Swap" : [],
+	"Component Property" : [],
+	"Net Property" : [
+		{
+			"Name" : "+12V",
+			"C_PATH" : "@amp.schematic1(sch_1):\\+12v\\",
+			"PropName" : "VOLTAGE",
+			"Logical" : null,
+			"Physical" : "12 V"
+		},
+		{
+			"Name" : "N15329",
+			"C_PATH" : "@amp.schematic1(sch_1):n15329",
+			"PropName" : "VOLTAGE",
+			"Logical" : null,
+			"Physical" : "0 V"
+		}
+	],
+	"Pin Property" : [],
+	"Component" : [],
+	"Net" : [],
+	"Connection" : []
+}

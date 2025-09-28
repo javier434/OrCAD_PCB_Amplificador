@@ -1,0 +1,134 @@
+(ExpressProject "Amp"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "22.1 P001 (4063652)  [10/6/2022]-[09/26/25]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "C:\Cadence\SPB_22.1\tools\capture\library\pspice\analog.olb"
+        (DisplayName
+           "C:\Cadence\SPB_22.1\tools\capture\library\pspice\analog.olb")
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_22.1\tools\capture\library\pspice\breakout.olb"
+        (DisplayName
+           "C:\Cadence\SPB_22.1\tools\capture\library\pspice\breakout.olb")
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_22.1\tools\capture\library\pspice\source.olb"
+        (DisplayName
+           "C:\Cadence\SPB_22.1\tools\capture\library\pspice\source.olb")
+        (Type "Schematic Library"))
+      (File "C:\Cadence\SPB_22.1\tools\capture\library\pspice\special.olb"
+        (DisplayName
+           "C:\Cadence\SPB_22.1\tools\capture\library\pspice\special.olb")
+        (Type "Schematic Library")))
+    (NoModify)
+    (File "amp.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "1")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "TRUE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "Netlist")
+    ("View Allegro Netlist Files" "TRUE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" ".\allegro\amp.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "255")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File ".\netlist\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\netlist\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\netlist\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
+  (Folder "PSpice Resources"
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User))
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\amp-pspicefiles\schematic1\bias.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\amp-pspicefiles\schematic1\bias.sim"
+        (DisplayName "SCHEMATIC1-bias")
+        (Type "PSpice Profile"))))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (LM741J
+      (FullPartName "LM741J.Normal")
+      (LibraryName "C:\CADENCE\CUSTOMPARTS\LM741J\LM741J.OLB")
+      (DeviceIndex "0"))
+    (282834-3
+      (FullPartName "282834-3.Normal")
+      (LibraryName "C:\CADENCE\CUSTOMPARTS\282834-3\282834-3.OLB")
+      (DeviceIndex "0"))
+    (HPF-03-01-X-S
+      (FullPartName "HPF-03-01-X-S.Normal")
+      (LibraryName "C:\CADENCE\CUSTOMPARTS\HPF-03-01-X-S\HPF-03-01-X-S.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (VSTIM
+      (FullPartName "VSTIM.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\SOURCSTM.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "C:\Cadence\CustomParts\LM741J")
+  (MPSSessionName "Javier Calvo")
+  (Folder "Logs")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Outputs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 637"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 1482 24 655")
+        (Scroll "0 106")
+        (Zoom "153")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\JAVIER CALVO\DOCUMENTS\CADENCE PROJECTS\AMPLIFIER - COURSERA\AMP.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (ISPCBBASICLICENSE "false"))

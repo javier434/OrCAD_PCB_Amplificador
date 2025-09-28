@@ -1,0 +1,7 @@
+A!FUNC_LOGICAL_PATH!COMP_DEVICE_TYPE!REFDES!FUNC_PRIM_FILE!COMP_PARENT_PPT!COMP_PARENT_PPT_PART!COMP_PARENT_PART_TYPE!FUNC_SCH_SIZE!FUNC_HAS_FIXED_SIZE!FUNC_DES!FUNC_GROUP!FUNC_ROOM!FUNC_TERM_IDENT!FUNC_CDS_FSP_INSTANCE_ID!FUNC_CDS_FSP_IS_FPGA!FUNC_CDS_FSP_UID!
+J!C:/Users/Javier Calvo/Documents/Cadence Projects/Amplifier - Coursera/Amp.brd!Fri Sep 26 22:12:22 2025!0.0!0.0!297.0!210.0!0.1!millimeters!AMP!10.400000 mil!2!OUT OF DATE!
+S!@amp.schematic1(sch_1):ins15410@\282834-3\.\282834-3.normal\(chips)!282834-3_TE_282834-3_282834-3!J1!.\pstchip.dat!!!!!!F4!!!!!!!
+S!@amp.schematic1(sch_1):ins14441@amp.\resistor_1.normal\(chips)!RESISTOR_1_RESAD700W45L350D185_5K!R1!.\pstchip.dat!!!!!!F3!!!!!!!
+S!@amp.schematic1(sch_1):ins14787@amp.\resistor_1.normal\(chips)!RESISTOR_1_RESAD700W45L350D185_10K!R2!.\pstchip.dat!!!!!!F2!!!!!!!
+S!@amp.schematic1(sch_1):ins14923@amp.\resistor_1.normal\(chips)!RESISTOR_1_RESAD700W45L350D185_1K!R3!.\pstchip.dat!!!!!!F1!!!!!!!
+S!@amp.schematic1(sch_1):ins16098@lm741j.\lm741j.normal\(chips)!LM741J_DIP775W46P254L1016H508Q8_LM741J!U2!.\pstchip.dat!!!!!!F0!!!!!!!

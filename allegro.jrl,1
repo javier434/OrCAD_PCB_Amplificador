@@ -1,0 +1,1517 @@
+\t (00:02:07) allegro 22.1 P001 Windows SPB 64-bit Edition
+\t (00:02:07)     Journal start - Fri Sep 26 20:43:43 2025
+\t (00:02:07)         Host=WIN-VG7SVLANVPC User=Javier Calvo Pid=6520 CPUs=4
+\t (00:02:07) CmdLine= C:\Cadence\SPB_22.1\tools\bin\allegro.exe
+\t (00:02:07) 
+\t (00:02:07) Starting new design...
+\i (00:02:07) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged Amp
+\i (00:02:07) trapsize 1171
+\i (00:02:07) trapsize 1171
+\i (00:02:10) QtSignal spbdip_param_group spbdip_units_combo CurrentIndexChanged Millimeter
+\i (00:02:12) QtSignal spbdip_param_group spbdip_size_combo CurrentIndexChanged A4
+\i (00:02:14) QtSignal spbdip_extents_group spbdip_extheight_edit editingFinished "210.0"
+\i (00:02:14) QtSignal SPBDesignInitPrompt spbdip_ok_button clicked
+\w (00:02:14) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:02:14) trapsize 30
+\t (00:02:14) Performing DRC...
+\t (00:02:14) Multithreaded DRC update (4 threads).
+\t (00:02:14) No DRC errors detected.
+\i (00:02:14) trapsize 17
+\i (00:02:14) generaledit 
+\i (00:02:16) save 
+\i (00:02:17) generaledit 
+\i (00:02:26) netin 
+\i (00:02:27) setwindow form.niparams
+\i (00:02:27) FORM niparams five_dot_x YES 
+\i (00:02:28) FORM niparams browse  
+\i (00:02:31) fillin "Netlist"
+\i (00:02:31) FORM niparams import  
+\t (00:02:31) Starting Cadence Logic Import...
+\t (00:02:32) Opening existing design...
+\i (00:02:32) setwindow pcb
+\i (00:02:32) trapsize 17
+\i (00:02:33) generaledit 
+\i (00:02:36) done 
+\i (00:02:36) place manual 
+\w (00:02:36) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:02:36) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:02:36) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:02:36) setwindow form.plc_manual
+\i (00:02:36) FORM plc_manual tree  'Components by refdes' 
+\i (00:02:36) setwindow pcb
+\i (00:02:36) FORM plc_manual placement_list 
+\i (00:02:36) FORM plc_manual categories Components by refdes 
+\i (00:02:36) trapsize 17
+\i (00:02:37) setwindow form.plc_manual
+\i (00:02:37) FORM plc_manual tree  J1 'Components by refdes' 
+\i (00:02:37) FORM plc_manual tree 'MULTISEL YES' J1 'Components by refdes' 
+\t (00:02:37) Placing J1 / 282834-3_TE_282834-3_282834-3 / TE_282834-3 on Top.
+\i (00:02:38) FORM plc_manual tree  R1 'Components by refdes' 
+\i (00:02:38) FORM plc_manual tree 'MULTISEL YES' R1 'Components by refdes' 
+\i (00:02:38) FORM plc_manual tree  R2 'Components by refdes' 
+\i (00:02:38) FORM plc_manual tree 'MULTISEL YES' R2 'Components by refdes' 
+\i (00:02:38) FORM plc_manual tree  R3 'Components by refdes' 
+\i (00:02:39) FORM plc_manual tree 'MULTISEL YES' R3 'Components by refdes' 
+\i (00:02:39) FORM plc_manual tree  U2 'Components by refdes' 
+\i (00:02:39) FORM plc_manual tree 'MULTISEL YES' U2 'Components by refdes' 
+\i (00:02:45) FORM plc_manual hide  
+\i (00:02:46) setwindow pcb
+\i (00:02:46) zoom in 
+\i (00:02:46) setwindow pcb
+\i (00:02:46) zoom in 148.3 60.0
+\i (00:02:46) trapsize 8
+\i (00:02:47) zoom in 
+\i (00:02:47) setwindow pcb
+\i (00:02:47) zoom in 148.4 74.7
+\i (00:02:47) trapsize 4
+\i (00:02:50) prepopup 131.1 77.0
+\i (00:02:52) rotate 
+\t (00:02:52) Spin the element(s).
+\i (00:02:53) iangle -90.000
+\t (00:02:53) last angle:  +270.000 Degrees
+\i (00:02:55) pick grid 130.8 74.1
+\t (00:02:55) last pick:  130.0 75.0
+\t (00:02:55) Placing R1 / RESISTOR_1_RESAD700W45L350D185_5K / RESAD700W45L350D185 on Top.
+\i (00:03:02) pick grid 143.8 81.7
+\t (00:03:02) last pick:  145.0 82.5
+\t (00:03:02) Placing R2 / RESISTOR_1_RESAD700W45L350D185_10K / RESAD700W45L350D185 on Top.
+\i (00:03:04) pick grid 145.5 76.2
+\t (00:03:04) last pick:  145.0 75.0
+\t (00:03:04) Placing R3 / RESISTOR_1_RESAD700W45L350D185_1K / RESAD700W45L350D185 on Top.
+\i (00:03:09) prepopup 132.2 83.0
+\i (00:03:11) rotate 
+\t (00:03:11) Spin the element(s).
+\i (00:03:12) iangle -180.000
+\t (00:03:12) last angle:  +180.000 Degrees
+\i (00:03:18) pick grid 133.8 83.1
+\t (00:03:18) last pick:  135.0 82.5
+\t (00:03:18) Placing U2 / LM741J_DIP775W46P254L1016H508Q8_LM741J / DIP775W46P254L1016H508Q8 on Top.
+\i (00:03:30) pick grid 143.6 64.2
+\t (00:03:30) last pick:  142.5 65.0
+\i (00:03:31) prepopup 143.2 64.1
+\i (00:03:32) pick grid 138.4 57.2
+\t (00:03:32) last pick:  137.5 57.5
+\i (00:03:33) pick grid 141.6 65.1
+\t (00:03:33) last pick:  142.5 65.0
+\t (00:03:33) Moving U2 / LM741J_DIP775W46P254L1016H508Q8_LM741J / DIP775W46P254L1016H508Q8.
+\t (00:03:33) last pick:  142.5 65.0
+\i (00:03:36) prepopup 142.4 65.4
+\i (00:03:38) rotate 
+\t (00:03:38) Spin the element(s).
+\i (00:04:10) iangle 0.000
+\t (00:04:10) last angle:  0.000 Degrees
+\i (00:04:47) pick grid 142.2 66.2
+\t (00:04:47) last pick:  142.5 65.0
+\i (00:04:55) pick grid 127.1 73.8
+\t (00:04:55) last pick:  127.5 75.0
+\t (00:04:55) Moving J1 / 282834-3_TE_282834-3_282834-3 / TE_282834-3.
+\t (00:04:55) last pick:  130.0 75.0
+\i (00:05:01) pick grid 131.2 74.0
+\t (00:05:01) last pick:  130.0 75.0
+\i (00:05:05) pick grid 128.0 73.6
+\t (00:05:05) last pick:  127.5 72.5
+\t (00:05:05) Moving J1 / 282834-3_TE_282834-3_282834-3 / TE_282834-3.
+\t (00:05:05) last pick:  130.0 75.0
+\i (00:05:07) pick grid 131.2 74.0
+\t (00:05:07) last pick:  130.0 75.0
+\i (00:05:17) shape add rect 
+\i (00:05:30) pick grid 120.6 89.4
+\t (00:05:30) last pick:  120.0 90.0
+\i (00:05:34) pick grid 160.5 56.2
+\t (00:05:34) last pick:  160.0 55.0
+\i (00:05:45) undo 
+\i (00:05:45) trapsize 4
+\i (00:05:45) generaledit 
+\i (00:06:02) create bounding shape 
+   (00:06:02) Loading apt.cxt 
+   (00:06:02) Loading skillExt.cxt 
+\i (00:06:07) pick 120.1 91.0
+\t (00:06:07) last pick:  120.1 91.0
+\t (00:06:07) No Element Found.
+\i (00:06:09) pick 156.5 91.3
+\t (00:06:09) last pick:  156.5 91.3
+\t (00:06:09) No Element Found.
+\i (00:06:11) drag_start 117.5 101.3
+\i (00:06:12) drag_stop 162.6 55.5
+\i (00:06:17) setwindow form.mini
+\i (00:06:17) FORM mini layer_tree  'BOARD GEOMETRY' 
+\i (00:06:28) FORM mini layer_tree  ETCH 
+\i (00:06:31) FORM mini layer_tree  TOP ETCH 
+\i (00:06:31) FORM mini layer_tree 'MULTISEL YES' TOP ETCH 
+\i (00:06:32) FORM mini layer_tree 'MULTISEL NO' TOP ETCH 
+\i (00:06:58) setwindow pcb
+\i (00:06:58) shape edit boundary 
+\i (00:07:01) pick grid 118.7 89.5
+\t (00:07:01) last pick:  117.5 90.0
+\i (00:07:02) drag_start grid 116.9 89.9
+\i (00:07:03) drag_stop grid 158.5 56.3
+\i (00:07:07) shape add rect 
+\i (00:07:13) setwindow form.mini
+\i (00:07:13) FORM mini dyns_fill_type Unfilled 
+\i (00:07:53) FORM mini class 'BOARD GEOMETRY' 
+\i (00:09:28) setwindow pcb
+\i (00:09:28) pick grid 119.7 87.9
+\t (00:09:28) last pick:  120.0 87.5
+   (00:09:28) WARNING(SPMHA2-118): 'DESIGN_OUTLINE' and 'CUTOUT' are the preferred subclasses for defining an outline. Use these subclasses instead of the 'OUTLINE' subclass. [help]
+\i (00:09:35) fillin confirm
+\i (00:09:39) pick grid 163.4 56.1
+\t (00:09:39) last pick:  162.5 55.0
+\i (00:09:56) save 
+\i (00:10:02) fillin yes 
+\i (00:10:03) generaledit 
+\i (00:10:07) cmgr 
+\i (00:10:08) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged "Same Net Spacing"
+\i (00:10:08) QtSignal m_domainSelector WS_Same_Net_Spacing itemSelectionChanged "Same Net Spacing Constraint Set" +
+\i (00:10:08) QtSignal "All Layers"
+\i (00:10:08) QtSignal Frozen_Differential_Pair_WorksheetView32 Frozen_Differential_Pair_WorksheetView32Header sectionMoved +
+\i (00:10:08) QtSignal 0 0 1
+\i (00:10:08) QtSignal Frozen_Differential_Pair_WorksheetView32 Frozen_Differential_Pair_WorksheetView32Header sectionMoved +
+\i (00:10:08) QtSignal 1 1 0
+\i (00:10:08) QtSignal Differential_Pair_WorksheetView32 Differential_Pair_WorksheetView32Header sectionMoved +
+\i (00:10:08) QtSignal 0 0 1
+\i (00:10:08) QtSignal Differential_Pair_WorksheetView32 Differential_Pair_WorksheetView32Header sectionMoved +
+\i (00:10:08) QtSignal 1 1 0
+\i (00:10:08) QtSignal Frozen_Differential_Pair_WorksheetView32 Frozen_Differential_Pair_WorksheetView32Header sectionMoved +
+\i (00:10:08) QtSignal 0 1 3
+\i (00:10:08) QtSignal Frozen_Differential_Pair_WorksheetView32 Frozen_Differential_Pair_WorksheetView32Header sectionMoved +
+\i (00:10:08) QtSignal 3 3 1
+\i (00:10:08) QtSignal Differential_Pair_WorksheetView32 Differential_Pair_WorksheetView32Header sectionMoved +
+\i (00:10:08) QtSignal 0 1 3
+\i (00:10:08) QtSignal Differential_Pair_WorksheetView32 Differential_Pair_WorksheetView32Header sectionMoved +
+\i (00:10:08) QtSignal 3 3 1
+\i (00:10:08) QtSignal CCMViewHost32 tableWidget currentChanged Amp
+\i (00:10:08) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Electrical
+\i (00:10:08) QtSignal m_domainSelector WS_Electrical itemSelectionChanged "Electrical Constraint Set" +
+\i (00:10:08) QtSignal Routing "Differential Pair"
+\i (00:10:08) QtSignal Frozen_All_Layers_WorksheetView58 Frozen_All_Layers_WorksheetView58Header sectionMoved +
+\i (00:10:08) QtSignal 0 0 1
+\i (00:10:08) QtSignal Frozen_All_Layers_WorksheetView58 Frozen_All_Layers_WorksheetView58Header sectionMoved +
+\i (00:10:08) QtSignal 1 1 0
+\i (00:10:08) QtSignal All_Layers_WorksheetView58 All_Layers_WorksheetView58Header sectionMoved +
+\i (00:10:08) QtSignal 0 0 1
+\i (00:10:08) QtSignal All_Layers_WorksheetView58 All_Layers_WorksheetView58Header sectionMoved +
+\i (00:10:08) QtSignal 1 1 0
+\i (00:10:08) QtSignal Frozen_All_Layers_WorksheetView58 Frozen_All_Layers_WorksheetView58Header sectionMoved +
+\i (00:10:08) QtSignal 0 1 3
+\i (00:10:08) QtSignal Frozen_All_Layers_WorksheetView58 Frozen_All_Layers_WorksheetView58Header sectionMoved +
+\i (00:10:08) QtSignal 3 3 1
+\i (00:10:08) QtSignal All_Layers_WorksheetView58 All_Layers_WorksheetView58Header sectionMoved +
+\i (00:10:08) QtSignal 0 1 3
+\i (00:10:08) QtSignal All_Layers_WorksheetView58 All_Layers_WorksheetView58Header sectionMoved +
+\i (00:10:08) QtSignal 3 3 1
+\i (00:10:08) QtSignal CCMViewHost58 tableWidget currentChanged Amp
+\i (00:10:08) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Physical
+\i (00:10:08) QtSignal m_domainSelector WS_Physical itemSelectionChanged "Physical Constraint Set" +
+\i (00:10:08) QtSignal "All Layers"
+\i (00:10:08) QtSignal Frozen_All_Layers_WorksheetView167 Frozen_All_Layers_WorksheetView167Header sectionMoved +
+\i (00:10:08) QtSignal 0 0 1
+\i (00:10:08) QtSignal Frozen_All_Layers_WorksheetView167 Frozen_All_Layers_WorksheetView167Header sectionMoved +
+\i (00:10:08) QtSignal 1 1 0
+\i (00:10:08) QtSignal All_Layers_WorksheetView167 All_Layers_WorksheetView167Header sectionMoved +
+\i (00:10:08) QtSignal 0 0 1
+\i (00:10:08) QtSignal All_Layers_WorksheetView167 All_Layers_WorksheetView167Header sectionMoved +
+\i (00:10:08) QtSignal 1 1 0
+\i (00:10:08) QtSignal Frozen_All_Layers_WorksheetView167 Frozen_All_Layers_WorksheetView167Header sectionMoved +
+\i (00:10:08) QtSignal 0 1 3
+\i (00:10:08) QtSignal Frozen_All_Layers_WorksheetView167 Frozen_All_Layers_WorksheetView167Header sectionMoved +
+\i (00:10:08) QtSignal 3 3 1
+\i (00:10:08) QtSignal All_Layers_WorksheetView167 All_Layers_WorksheetView167Header sectionMoved +
+\i (00:10:08) QtSignal 0 1 3
+\i (00:10:08) QtSignal All_Layers_WorksheetView167 All_Layers_WorksheetView167Header sectionMoved +
+\i (00:10:08) QtSignal 3 3 1
+\i (00:10:08) QtSignal CCMViewHost167 tableWidget currentChanged Amp
+\i (00:10:08) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Spacing
+\i (00:10:08) QtSignal m_domainSelector WS_Spacing itemSelectionChanged "Spacing Constraint Set" +
+\i (00:10:08) QtSignal "All Layers"
+\i (00:10:08) QtSignal Frozen_All_Layers_WorksheetView174 Frozen_All_Layers_WorksheetView174Header sectionMoved +
+\i (00:10:08) QtSignal 0 0 1
+\i (00:10:08) QtSignal Frozen_All_Layers_WorksheetView174 Frozen_All_Layers_WorksheetView174Header sectionMoved +
+\i (00:10:08) QtSignal 1 1 0
+\i (00:10:08) QtSignal All_Layers_WorksheetView174 All_Layers_WorksheetView174Header sectionMoved +
+\i (00:10:08) QtSignal 0 0 1
+\i (00:10:08) QtSignal All_Layers_WorksheetView174 All_Layers_WorksheetView174Header sectionMoved +
+\i (00:10:08) QtSignal 1 1 0
+\i (00:10:08) QtSignal Frozen_All_Layers_WorksheetView174 Frozen_All_Layers_WorksheetView174Header sectionMoved +
+\i (00:10:08) QtSignal 0 1 3
+\i (00:10:08) QtSignal Frozen_All_Layers_WorksheetView174 Frozen_All_Layers_WorksheetView174Header sectionMoved +
+\i (00:10:08) QtSignal 3 3 1
+\i (00:10:08) QtSignal All_Layers_WorksheetView174 All_Layers_WorksheetView174Header sectionMoved +
+\i (00:10:08) QtSignal 0 1 3
+\i (00:10:08) QtSignal All_Layers_WorksheetView174 All_Layers_WorksheetView174Header sectionMoved +
+\i (00:10:08) QtSignal 3 3 1
+\i (00:10:08) QtSignal CCMViewHost174 tableWidget currentChanged Amp
+\i (00:10:08) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged "Same Net Spacing"
+\i (00:10:08) QtSignal m_domainSelector WS_Same_Net_Spacing itemSelectionChanged
+\i (00:10:08) QtSignal m_domainSelector WS_Same_Net_Spacing itemSelectionChanged "Same Net Spacing Constraint Set" +
+\i (00:10:08) QtSignal "All Layers"
+\i (00:10:08) generaledit 
+\i (00:10:11) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Electrical
+\i (00:10:11) QtSignal m_domainSelector WS_Electrical itemSelectionChanged
+\i (00:10:13) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Physical
+\i (00:10:13) QtSignal m_domainSelector WS_Physical itemSelectionChanged
+\i (00:10:14) QtSignal m_domainSelector WS_Physical itemSelectionChanged "Physical Constraint Set" +
+\i (00:10:14) QtSignal "All Layers"
+\i (00:10:14) QtSignal m_domainSelector WS_Physical itemClicked "Physical Constraint Set" "All Layers"
+\i (00:10:21) QtSignal inCell text editingFinished "0.2"
+\i (00:10:24) QtSignal inCell text editingFinished "0.2"
+\i (00:10:27) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Spacing
+\i (00:10:27) QtSignal m_domainSelector WS_Spacing itemSelectionChanged
+\i (00:10:29) QtSignal m_domainSelector WS_Spacing itemSelectionChanged "Spacing Constraint Set" +
+\i (00:10:29) QtSignal "All Layers"
+\i (00:10:29) QtSignal m_domainSelector WS_Spacing itemClicked "Spacing Constraint Set" "All Layers"
+\i (00:10:32) QtSignal inCell text editingFinished "0.2"
+\i (00:10:46) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged "Same Net Spacing"
+\i (00:10:46) QtSignal m_domainSelector WS_Same_Net_Spacing itemSelectionChanged
+\i (00:10:47) QtSignal m_domainSelector WS_Same_Net_Spacing itemSelectionChanged "Same Net Spacing Constraint Set" +
+\i (00:10:47) QtSignal "All Layers"
+\i (00:10:47) QtSignal m_domainSelector WS_Same_Net_Spacing itemClicked "Same Net Spacing Constraint Set" +
+\i (00:10:47) QtSignal "All Layers"
+\i (00:11:00) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Manufacturing
+\i (00:11:06) save 
+\i (00:11:07) fillin yes 
+   (00:11:07) Loading consmgr.cxt 
+   (00:11:07) Loading acns_formula.cxt 
+\i (00:11:08) generaledit 
+\i (00:11:14) add connect 
+\w (00:11:14) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:11:14) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:11:15) Pick first element.
+\i (00:11:17) zoom in 
+\i (00:11:17) setwindow pcb
+\i (00:11:17) zoom in 148.4 74.7
+\i (00:11:17) trapsize 2
+\i (00:11:19) zoom out 
+\i (00:11:19) setwindow pcb
+\i (00:11:19) zoom out 148.4 74.8
+\i (00:11:19) trapsize 4
+\i (00:11:20) zoom points 
+\t (00:11:20) Pick 1st corner of the new window.
+\i (00:11:21) drag_start 118.4 87.9
+\i (00:11:23) drag_stop 164.2 71.7
+\i (00:11:23) trapsize 3
+\i (00:11:26) add connect 
+\t (00:11:27) Pick first element.
+\i (00:11:28) pick grid 131.6 82.5
+\t (00:11:28) last pick:  131.4 82.8
+\t (00:11:28) last pick:  131.5 82.5
+\t (00:11:28) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:11:28) last pick:  131.5 82.5
+\i (00:11:30) prepopup 129.5 82.2
+\i (00:11:35) pop dyn_option_select 'Options@:@Line width@:@New...' 
+\i (00:11:38) setwindow form.new_item
+\i (00:11:38) FORM new_item new_value 0.5 
+\i (00:11:38) FORM new_item ok  
+\i (00:11:42) setwindow pcb
+\i (00:11:42) pick grid 129.8 82.5
+\t (00:11:42) last pick:  129.6 82.8
+\t (00:11:42) No DRC errors detected.
+\t (00:11:42) last pick:  129.9 82.5
+\i (00:11:42) mouse_pos 129.5 78.8
+\i (00:11:43) mouse_pos 130.0 79.2
+\i (00:11:44) mouse_pos 130.0 78.7
+\i (00:11:45) mouse_pos 131.1 76.1
+\i (00:11:45) mouse_pos 130.9 76.4
+\i (00:11:45) mouse_pos 129.4 79.4
+\i (00:11:48) mouse_pos 129.7 78.8
+\i (00:11:49) mouse_pos 128.6 79.5
+\i (00:11:53) prepopup 129.3 79.8
+\i (00:11:54) cancel 
+\i (00:11:54) generaledit 
+\i (00:11:56) add connect 
+\t (00:11:56) Pick first element.
+\i (00:11:57) pick grid 131.7 82.2
+\t (00:11:57) last pick:  132.0 82.2
+\t (00:11:57) last pick:  131.5 82.5
+\t (00:11:57) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:11:57) last pick:  131.5 82.5
+\i (00:11:59) prepopup 129.6 82.2
+\i (00:12:29) pop dyn_option_select 'Options@:@Line width@:@New...' 
+\i (00:12:31) setwindow form.new_item
+\i (00:12:31) FORM new_item new_value 0.5 
+\i (00:12:31) FORM new_item ok  
+\i (00:12:33) setwindow pcb
+\i (00:12:33) mouse_pos 130.9 78.7
+\i (00:12:38) pick grid 130.2 77.6
+\t (00:12:38) last pick:  130.2 77.4
+\t (00:12:38) No DRC errors detected.
+\t (00:12:38) Pick first element.
+\i (00:12:40) pick grid 138.5 82.7
+\t (00:12:40) last pick:  138.6 82.8
+\t (00:12:40) Pick first element.
+\t (00:12:40) last pick:  138.5 82.5
+\t (00:12:40) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:12:40) last pick:  138.5 82.5
+\i (00:12:41) mouse_pos 140.1 82.7
+\i (00:12:42) pick grid 141.3 82.7
+\t (00:12:42) last pick:  141.6 82.8
+\t (00:12:42) No DRC errors detected.
+\t (00:12:42) Pick first element.
+\i (00:12:45) pick grid 148.7 82.1
+\t (00:12:45) last pick:  148.8 82.2
+\t (00:12:45) Pick first element.
+\t (00:12:45) last pick:  148.5 82.5
+\t (00:12:45) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:12:45) last pick:  148.5 82.5
+\i (00:12:46) mouse_pos 148.6 75.7
+\i (00:12:47) pick grid 148.5 75.2
+\t (00:12:47) last pick:  148.8 75.0
+\t (00:12:47) No DRC errors detected.
+\t (00:12:47) Pick first element.
+\i (00:12:49) pick grid 141.7 74.9
+\t (00:12:49) last pick:  141.6 75.0
+\t (00:12:49) Pick first element.
+\t (00:12:49) last pick:  141.5 75.0
+\t (00:12:49) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:12:49) last pick:  141.5 75.0
+\i (00:12:50) mouse_pos 131.0 75.1
+\i (00:12:51) pick grid 130.4 75.1
+\t (00:12:51) last pick:  130.2 75.0
+\t (00:12:51) No DRC errors detected.
+\t (00:12:51) Pick first element.
+\i (00:13:04) pick grid 142.7 63.1
+\t (00:13:04) last pick:  142.8 63.0
+\t (00:13:04) Pick first element.
+\t (00:13:04) last pick:  142.8 63.0
+\i (00:13:05) pick grid 143.6 62.6
+\t (00:13:05) last pick:  143.4 62.4
+\t (00:13:05) No DRC errors detected.
+\i (00:13:07) prepopup 143.0 65.0
+\i (00:13:09) cancel 
+\i (00:13:09) generaledit 
+\i (00:13:10) pick grid 144.0 62.2
+\t (00:13:10) last pick:  144.0 62.4
+\i (00:13:11) drag_start grid 142.7 62.4
+\i (00:13:11) drag_stop 144.1 62.3
+\i (00:13:12) pick grid 142.5 61.4
+\t (00:13:12) last pick:  142.8 61.2
+\i (00:13:12) pick grid 142.5 61.7
+\t (00:13:12) last pick:  142.8 61.8
+\i (00:13:12) pick grid dbl 142.5 61.7
+\t (00:13:12) last pick:  142.8 61.8
+\i (00:13:13) pick grid 142.5 61.7
+\t (00:13:13) last pick:  142.8 61.8
+\i (00:13:13) drag_start grid 151.7 58.3
+\i (00:13:14) drag_stop 137.0 65.0
+\i (00:13:15) drag_start grid 141.8 63.8
+\i (00:13:15) drag_stop 145.7 63.8
+\i (00:13:16) drag_start grid 150.5 59.1
+\i (00:13:16) drag_stop 134.2 66.0
+\i (00:13:18) prepopup 143.2 64.5
+\i (00:13:33) pick grid 152.8 61.6
+\t (00:13:33) last pick:  153.0 61.8
+\i (00:13:38) pick grid 147.9 71.6
+\t (00:13:38) last pick:  148.2 71.4
+\i (00:14:08) pick grid 138.6 65.1
+\t (00:14:08) last pick:  138.6 65.4
+\i (00:14:51) add connect 
+\t (00:14:51) Selected item not valid for current operation, ignored: Vertical Line Segment "Package Geometry/Assembly_Top"
+\t (00:14:51) No valid items selected for the current operation, exiting.
+\i (00:14:51) generaledit 
+\i (00:14:52) add connect 
+\t (00:14:52) Selected item not valid for current operation, ignored: Vertical Line Segment "Package Geometry/Assembly_Top"
+\t (00:14:52) No valid items selected for the current operation, exiting.
+\i (00:14:52) generaledit 
+\i (00:14:53) pick grid 148.4 74.6
+\t (00:14:53) last pick:  148.2 74.4
+\i (00:14:55) pick grid 149.0 75.1
+\t (00:14:55) last pick:  148.8 75.0
+\i (00:15:00) add connect 
+\t (00:15:00) Pick first element.
+\t (00:15:00) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:15:00) last pick:  148.5 75.0
+\i (00:15:02) mouse_pos 147.2 63.6
+\i (00:15:09) pick grid 147.2 63.6
+\t (00:15:09) last pick:  147.0 63.6
+\t (00:15:09) No DRC errors detected.
+\t (00:15:09) Pick first element.
+\i (00:15:09) generaledit 
+\i (00:16:48) add connect 
+\t (00:16:48) Pick first element.
+\i (00:16:49) pick grid 139.0 61.0
+\t (00:16:49) last pick:  139.2 61.2
+\t (00:16:49) last pick:  138.6 61.2
+\t (00:16:49) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:16:49) last pick:  138.6 61.2
+\i (00:16:49) mouse_pos 138.9 62.7
+\i (00:16:50) pick grid 138.9 63.3
+\t (00:16:50) last pick:  139.2 63.6
+\t (00:16:50) No DRC errors detected.
+\t (00:16:50) Pick first element.
+\i (00:17:24) pick grid 130.2 72.7
+\t (00:17:24) last pick:  130.2 72.6
+\t (00:17:24) Pick first element.
+\t (00:17:24) last pick:  130.0 72.5
+\t (00:17:24) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:17:24) last pick:  130.0 72.5
+\i (00:17:28) pick grid 147.5 71.2
+\t (00:17:28) last pick:  147.6 71.4
+\t (00:17:28) No DRC errors detected.
+\i (00:17:30) mouse_pos 147.2 67.0
+\i (00:17:30) pick grid 147.1 66.8
+\t (00:17:31) last pick:  147.0 66.6
+\t (00:17:31) No DRC errors detected.
+\t (00:17:31) Pick first element.
+\i (00:20:36) pick grid 134.4 72.6
+\t (00:20:36) last pick:  134.4 72.6
+\t (00:20:36) Pick first element.
+\t (00:20:36) last pick:  134.4 72.5
+\t (00:20:36) last pick:  134.4 72.5
+\i (00:20:36) mouse_pos 135.9 71.8
+\i (00:20:36) mouse_pos 136.5 71.1
+\i (00:20:36) mouse_pos 137.5 71.8
+\i (00:20:37) mouse_pos 137.1 70.9
+\i (00:20:38) prepopup 136.9 65.3
+\i (00:20:39) cancel 
+\i (00:20:40) generaledit 
+\i (00:20:41) prepopup 136.6 72.2
+\i (00:20:42) pop dyn_option_select @:@Delete 
+\i (00:20:42) delete 
+\i (00:20:42) generaledit 
+\i (00:20:44) prepopup 147.5 71.8
+\i (00:20:46) pop dyn_option_select @:@Delete 
+\i (00:20:46) delete 
+\i (00:20:46) generaledit 
+\i (00:20:47) prepopup 147.7 68.5
+\i (00:20:48) pop dyn_option_select @:@Delete 
+\i (00:20:48) delete 
+\i (00:20:48) generaledit 
+\i (00:20:49) prepopup 147.7 67.0
+\i (00:20:50) pop dyn_option_select @:@Delete 
+\i (00:20:50) delete 
+\i (00:20:50) generaledit 
+\i (00:20:53) pick grid 130.0 72.4
+\t (00:20:53) last pick:  130.2 72.6
+\i (00:20:56) add connect 
+\t (00:20:56) Pick first element.
+\t (00:20:56) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:20:56) last pick:  130.0 72.5
+\i (00:21:03) pick grid 135.9 57.7
+\t (00:21:03) last pick:  136.2 57.6
+\t (00:21:03) No DRC errors detected.
+\i (00:21:07) pick grid 140.0 57.7
+\t (00:21:07) last pick:  139.8 57.6
+\t (00:21:07) No DRC errors detected.
+\i (00:21:12) mouse_pos 146.4 65.1
+\i (00:21:14) mouse_pos 145.5 64.8
+\i (00:21:25) pick grid 141.8 57.7
+\t (00:21:25) last pick:  141.6 57.6
+\t (00:21:25) No DRC errors detected.
+\i (00:21:29) pick grid 144.3 60.3
+\t (00:21:29) last pick:  144.6 60.6
+\t (00:21:29) No DRC errors detected.
+\i (00:21:32) mouse_pos 145.5 66.2
+\i (00:21:34) pick grid 146.1 66.3
+\t (00:21:34) last pick:  146.4 66.6
+\t (00:21:34) No DRC errors detected.
+\t (00:21:34) Pick first element.
+\i (00:21:34) generaledit 
+\i (00:21:52) pick grid 138.8 63.7
+\t (00:21:52) last pick:  138.6 63.6
+\i (00:21:57) add connect 
+\t (00:21:57) Pick first element.
+\t (00:21:57) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:21:57) last pick:  138.6 63.7
+\i (00:22:03) mouse_pos 140.7 74.0
+\i (00:22:05) mouse_pos 140.3 74.2
+\i (00:22:05) mouse_pos 137.6 73.3
+\i (00:22:09) pick grid 134.2 68.0
+\t (00:22:09) last pick:  134.4 67.8
+\t (00:22:09) No DRC errors detected.
+\t (00:22:09) last pick:  134.5 67.8
+\i (00:22:10) mouse_pos 140.7 73.9
+\i (00:22:12) mouse_pos 140.3 74.4
+\i (00:22:12) mouse_pos 138.1 73.7
+\i (00:22:13) pick grid 135.6 72.6
+\t (00:22:13) last pick:  135.6 72.6
+\t (00:22:13) No DRC errors detected.
+\i (00:22:14) mouse_pos 140.9 74.2
+\i (00:22:15) pick grid 141.3 74.7
+\t (00:22:15) last pick:  141.6 75.0
+\t (00:22:15) No DRC errors detected.
+\t (00:22:15) Pick first element.
+\i (00:22:15) generaledit 
+\i (00:22:17) pick grid 138.7 66.4
+\t (00:22:17) last pick:  138.6 66.6
+\i (00:22:19) add connect 
+\t (00:22:19) Pick first element.
+\t (00:22:19) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:22:19) last pick:  138.6 66.3
+\i (00:22:24) pick grid 144.9 72.7
+\t (00:22:24) last pick:  145.2 72.6
+\t (00:22:24) No DRC errors detected.
+\t (00:22:24) last pick:  144.9 72.6
+\i (00:22:27) pick grid 144.4 77.0
+\t (00:22:27) last pick:  144.6 76.8
+\t (00:22:27) No DRC errors detected.
+\t (00:22:27) last pick:  144.9 76.5
+\i (00:22:27) mouse_pos 139.2 81.3
+\i (00:22:29) mouse_pos 138.6 81.1
+\i (00:22:32) pick grid 139.6 80.0
+\t (00:22:32) last pick:  139.8 79.8
+\t (00:22:32) No DRC errors detected.
+\i (00:22:32) mouse_pos 138.7 81.7
+\i (00:22:33) pick grid 138.2 82.7
+\t (00:22:33) last pick:  138.0 82.8
+\t (00:22:33) No DRC errors detected.
+\t (00:22:33) Pick first element.
+\i (00:22:33) generaledit 
+\i (00:24:13) save 
+\i (00:24:15) fillin yes 
+\i (00:24:15) generaledit 
+\i (00:24:53) signal setup 
+\i (00:26:05) setwindow form.sigSetup
+\i (00:26:05) FORM sigSetup wiz_next  
+   (00:26:05) Loading signal.cxt 
+   (00:26:05) Loading fputil.cxt 
+\i (00:26:05) FORM sigSetup selectedxnets  'Dsn AMP' 
+\i (00:27:07) FORM sigSetup selectedxnets  'Net +12V' 'Dsn AMP' 
+\i (00:27:07) FORM sigSetup selectedxnets 'MULTISEL NO' 'Net +12V' 'Dsn AMP' 
+\i (00:27:08) FORM sigSetup selectedxnets  'Net N14592' 'Dsn AMP' 
+\i (00:27:08) FORM sigSetup selectedxnets 'MULTISEL NO' 'Net N14592' 'Dsn AMP' 
+\i (00:27:09) FORM sigSetup selectedxnets  'Net N15314' 'Dsn AMP' 
+\i (00:27:09) FORM sigSetup selectedxnets 'MULTISEL NO' 'Net N15314' 'Dsn AMP' 
+\i (00:27:09) FORM sigSetup selectedxnets  'Net N15329' 'Dsn AMP' 
+\i (00:27:09) FORM sigSetup selectedxnets 'MULTISEL NO' 'Net N15329' 'Dsn AMP' 
+\i (00:27:42) FORM sigSetup wiz_next  
+   (00:27:42) *Error* setq/set: Variable is protected and cannot be assigned to - treeItem
+\i (00:28:30) FORM sigSetup wiz_next  
+\i (00:29:35) FORM sigSetup wiz_next  
+\i (00:30:34) FORM sigSetup wiz_next  
+   (00:30:34) *Error* setq/set: Variable is protected and cannot be assigned to - treeItem
+\i (00:31:01) FORM sigSetup showwhyvoltagenet  
+   (00:31:01) *Error* difference: can't handle (nil - 1)
+\i (00:31:04) FORM sigSetup showwhyvoltagenet  
+   (00:31:04) *Error* difference: can't handle (nil - 1)
+\i (00:31:27) FORM sigSetup editvoltageonanynet  
+   (00:31:27) Loading cmds.cxt 
+   (00:31:27) *Error* _fpSAGetPropOnObject: argument #1 should be a list (type template = "lt") - 1
+\i (00:31:44) FORM sigSetup cancel  
+\i (00:31:44) setwindow pcb
+\i (00:31:44) generaledit 
+\i (00:33:20) save 
+\i (00:33:22) fillin yes 
+\i (00:33:22) generaledit 
+\i (00:34:35) signal setup 
+\i (00:34:43) setwindow form.sigSetup
+\i (00:34:43) FORM sigSetup wiz_next  
+\i (00:34:43) FORM sigSetup selectedxnets  'Dsn AMP' 
+\i (00:34:53) FORM sigSetup wiz_next  
+   (00:34:53) *Error* setq/set: Variable is protected and cannot be assigned to - treeItem
+\i (00:34:56) FORM sigSetup wiz_back  
+\i (00:34:57) FORM sigSetup selectedxnets  'Dsn AMP' 
+\i (00:34:58) FORM sigSetup selectedxnets 'MULTISEL YES' 'Dsn AMP' 
+\i (00:35:00) FORM sigSetup wiz_next  
+   (00:35:00) *Error* setq/set: Variable is protected and cannot be assigned to - treeItem
+\i (00:35:03) FORM sigSetup wiz_back  
+\i (00:35:04) FORM sigSetup selectedxnets  'Dsn AMP' 
+\i (00:35:04) FORM sigSetup selectedxnets  'Net N14584' 'Dsn AMP' 
+\i (00:35:05) FORM sigSetup selectedxnets 'MULTISEL NO' 'Net N14584' 'Dsn AMP' 
+\i (00:35:05) FORM sigSetup selectedxnets  'Net N14592' 'Dsn AMP' 
+\i (00:35:05) FORM sigSetup selectedxnets 'MULTISEL NO' 'Net N14592' 'Dsn AMP' 
+\i (00:35:05) FORM sigSetup selectedxnets  'Net N15314' 'Dsn AMP' 
+\i (00:35:06) FORM sigSetup selectedxnets 'MULTISEL NO' 'Net N15314' 'Dsn AMP' 
+\i (00:35:06) FORM sigSetup selectedxnets  'Net N15329' 'Dsn AMP' 
+\i (00:35:06) FORM sigSetup selectedxnets 'MULTISEL NO' 'Net N15329' 'Dsn AMP' 
+\i (00:35:07) FORM sigSetup wiz_next  
+   (00:35:07) *Error* setq/set: Variable is protected and cannot be assigned to - treeItem
+\i (00:35:10) FORM sigSetup wiz_next  
+\i (00:35:12) FORM sigSetup wiz_next  
+\i (00:35:14) FORM sigSetup wiz_next  
+   (00:35:14) *Error* setq/set: Variable is protected and cannot be assigned to - treeItem
+\i (00:35:47) FORM sigSetup identifyvoltagenet  
+   (00:35:47) *Error* difference: can't handle (nil - 1)
+\i (00:35:48) FORM sigSetup showwhyvoltagenet  
+   (00:35:48) *Error* difference: can't handle (nil - 1)
+\i (00:36:36) FORM sigSetup editvoltageonanynet  
+   (00:36:36) *Error* setq/set: Variable is protected and cannot be assigned to - treeItem
+\i (00:36:57) setwindow form.fpsxidnets
+\i (00:36:57) FORM fpsxidnets possiblevoltagenetnames  
+\i (00:37:50) setwindow form.sigDefineVoltageNameFormats
+\i (00:37:50) FORM sigDefineVoltageNameFormats voltageformatstrings *GND* 
+\i (00:37:51) FORM sigDefineVoltageNameFormats voltageformatstrings *GND* 
+\i (00:37:51) FORM sigDefineVoltageNameFormats voltageformatstrings *GND* 
+\i (00:38:06) FORM sigDefineVoltageNameFormats addformatstring  
+\i (00:38:13) fillin "0V"
+\i (00:38:16) FORM sigDefineVoltageNameFormats addformatstring  
+\i (00:38:19) fillin "+12V"
+\i (00:38:23) FORM sigDefineVoltageNameFormats myok  
+   (00:38:23) *Error* _fpSAGetPropOnObject: argument #1 should be a list (type template = "lt") - 1
+\i (00:38:27) setwindow form.fpsxidnets
+\i (00:38:27) FORM fpsxidnets apply  
+\i (00:38:32) FORM fpsxidnets fpidnnetfilter 0V 
+\i (00:38:32) FORM fpsxidnets done  
+\i (00:38:33) FORM fpsxidnets apply  
+\i (00:38:34) FORM fpsxidnets done  
+\i (00:38:36) FORM fpsxidnets done  
+\i (00:38:36) FORM fpsxidnets apply  
+\i (00:38:38) FORM fpsxidnets cancel  
+\i (00:38:44) setwindow form.sigSetup
+\i (00:38:44) FORM sigSetup cancel  
+\i (00:38:44) setwindow pcb
+\i (00:38:44) generaledit 
+\i (00:38:59) save 
+\i (00:39:00) fillin yes 
+\i (00:39:01) generaledit 
+\i (00:39:06) signal setup 
+\i (00:39:10) setwindow form.sigSetup
+\i (00:39:10) FORM sigSetup wiz_next  
+\i (00:39:10) FORM sigSetup selectedxnets  'Dsn AMP' 
+\i (00:39:12) FORM sigSetup wiz_next  
+   (00:39:12) *Error* setq/set: Variable is protected and cannot be assigned to - treeItem
+\i (00:39:13) FORM sigSetup wiz_next  
+\i (00:39:14) FORM sigSetup wiz_next  
+\i (00:39:15) FORM sigSetup wiz_next  
+   (00:39:15) *Error* setq/set: Variable is protected and cannot be assigned to - treeItem
+\i (00:39:18) FORM sigSetup showwhyvoltagenet  
+   (00:39:18) *Error* difference: can't handle (nil - 1)
+\i (00:39:27) FORM sigSetup definepossiblevoltageformats  
+\i (00:39:30) setwindow form.sigDefineVoltageNameFormats
+\i (00:39:30) FORM sigDefineVoltageNameFormats voltageformatstrings 0V 
+\i (00:39:30) FORM sigDefineVoltageNameFormats voltageformatstrings 0V 
+\i (00:39:31) FORM sigDefineVoltageNameFormats voltageformatstrings 0V 
+\i (00:39:31) FORM sigDefineVoltageNameFormats voltageformatstrings 0V 
+\i (00:39:31) FORM sigDefineVoltageNameFormats voltageformatstrings 0V 
+\i (00:40:04) FORM sigDefineVoltageNameFormats addformatstring  
+\i (00:40:05) fillin "menu_cancel"
+\i (00:40:06) FORM sigDefineVoltageNameFormats myok  
+\i (00:40:08) setwindow form.sigSetup
+\i (00:40:08) FORM sigSetup wiz_next  
+\i (00:40:12) FORM sigSetup selectedxnets  'Dsn AMP' 
+\i (00:40:13) FORM sigSetup selectedxnets  'Net +12V' 'Dsn AMP' 
+\i (00:40:13) FORM sigSetup selectedxnets 'MULTISEL NO' 'Net +12V' 'Dsn AMP' 
+\i (00:40:14) FORM sigSetup selectedxnets  'Net N14584' 'Dsn AMP' 
+\i (00:40:14) FORM sigSetup selectedxnets 'MULTISEL YES' 'Net N14584' 'Dsn AMP' 
+\i (00:40:15) FORM sigSetup wiz_next  
+   (00:40:15) *Error* setq/set: Variable is protected and cannot be assigned to - treeItem
+\i (00:40:16) FORM sigSetup wiz_next  
+\i (00:40:18) FORM sigSetup wiz_next  
+\i (00:40:18) FORM sigSetup wiz_next  
+   (00:40:18) *Error* setq/set: Variable is protected and cannot be assigned to - treeItem
+\i (00:40:22) FORM sigSetup showwhyvoltagenet  
+   (00:40:22) *Error* difference: can't handle (nil - 1)
+\i (00:40:24) FORM sigSetup showwhyvoltagenet  
+   (00:40:24) *Error* difference: can't handle (nil - 1)
+\i (00:40:25) FORM sigSetup showwhyvoltagenet  
+   (00:40:25) *Error* difference: can't handle (nil - 1)
+\i (00:42:13) FORM sigSetup cancel  
+\i (00:42:13) setwindow pcb
+\i (00:42:13) generaledit 
+\i (00:42:15) cmgr 
+\i (00:42:15) QtSignal m_domainSelector WS_Physical itemSelectionChanged
+\i (00:42:15) QtSignal m_domainSelector WS_Spacing itemSelectionChanged
+\i (00:42:15) QtSignal m_domainSelector WS_Same_Net_Spacing itemSelectionChanged
+\i (00:42:15) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Electrical
+\i (00:42:15) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged
+\i (00:42:15) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Electrical
+\i (00:42:15) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged "Same Net Spacing"
+\i (00:42:15) QtSignal m_domainSelector WS_Same_Net_Spacing itemSelectionChanged "Same Net Spacing Constraint Set" +
+\i (00:42:15) QtSignal "All Layers"
+\i (00:42:16) QtSignal Frozen_Differential_Pair_WorksheetView32 Frozen_Differential_Pair_WorksheetView32Header sectionMoved +
+\i (00:42:16) QtSignal 0 0 1
+\i (00:42:16) QtSignal Frozen_Differential_Pair_WorksheetView32 Frozen_Differential_Pair_WorksheetView32Header sectionMoved +
+\i (00:42:16) QtSignal 1 1 0
+\i (00:42:16) QtSignal Differential_Pair_WorksheetView32 Differential_Pair_WorksheetView32Header sectionMoved +
+\i (00:42:16) QtSignal 0 0 1
+\i (00:42:16) QtSignal Differential_Pair_WorksheetView32 Differential_Pair_WorksheetView32Header sectionMoved +
+\i (00:42:16) QtSignal 1 1 0
+\i (00:42:16) QtSignal Frozen_Differential_Pair_WorksheetView32 Frozen_Differential_Pair_WorksheetView32Header sectionMoved +
+\i (00:42:16) QtSignal 0 1 3
+\i (00:42:16) QtSignal Frozen_Differential_Pair_WorksheetView32 Frozen_Differential_Pair_WorksheetView32Header sectionMoved +
+\i (00:42:16) QtSignal 3 3 1
+\i (00:42:16) QtSignal Differential_Pair_WorksheetView32 Differential_Pair_WorksheetView32Header sectionMoved +
+\i (00:42:16) QtSignal 0 1 3
+\i (00:42:16) QtSignal Differential_Pair_WorksheetView32 Differential_Pair_WorksheetView32Header sectionMoved +
+\i (00:42:16) QtSignal 3 3 1
+\i (00:42:16) QtSignal CCMViewHost32 tableWidget currentChanged Amp
+\i (00:42:16) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Electrical
+\i (00:42:16) QtSignal m_domainSelector WS_Electrical itemSelectionChanged "Electrical Constraint Set" +
+\i (00:42:16) QtSignal Routing "Differential Pair"
+\i (00:42:16) QtSignal Frozen_All_Layers_WorksheetView58 Frozen_All_Layers_WorksheetView58Header sectionMoved +
+\i (00:42:16) QtSignal 0 0 1
+\i (00:42:16) QtSignal Frozen_All_Layers_WorksheetView58 Frozen_All_Layers_WorksheetView58Header sectionMoved +
+\i (00:42:16) QtSignal 1 1 0
+\i (00:42:16) QtSignal All_Layers_WorksheetView58 All_Layers_WorksheetView58Header sectionMoved +
+\i (00:42:16) QtSignal 0 0 1
+\i (00:42:16) QtSignal All_Layers_WorksheetView58 All_Layers_WorksheetView58Header sectionMoved +
+\i (00:42:16) QtSignal 1 1 0
+\i (00:42:16) QtSignal Frozen_All_Layers_WorksheetView58 Frozen_All_Layers_WorksheetView58Header sectionMoved +
+\i (00:42:16) QtSignal 0 1 3
+\i (00:42:16) QtSignal Frozen_All_Layers_WorksheetView58 Frozen_All_Layers_WorksheetView58Header sectionMoved +
+\i (00:42:16) QtSignal 3 3 1
+\i (00:42:16) QtSignal All_Layers_WorksheetView58 All_Layers_WorksheetView58Header sectionMoved +
+\i (00:42:16) QtSignal 0 1 3
+\i (00:42:16) QtSignal All_Layers_WorksheetView58 All_Layers_WorksheetView58Header sectionMoved +
+\i (00:42:16) QtSignal 3 3 1
+\i (00:42:16) QtSignal CCMViewHost58 tableWidget currentChanged Amp
+\i (00:42:16) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Physical
+\i (00:42:16) QtSignal m_domainSelector WS_Physical itemSelectionChanged "Physical Constraint Set" +
+\i (00:42:16) QtSignal "All Layers"
+\i (00:42:16) QtSignal Frozen_All_Layers_WorksheetView167 Frozen_All_Layers_WorksheetView167Header sectionMoved +
+\i (00:42:16) QtSignal 0 0 1
+\i (00:42:16) QtSignal Frozen_All_Layers_WorksheetView167 Frozen_All_Layers_WorksheetView167Header sectionMoved +
+\i (00:42:16) QtSignal 1 1 0
+\i (00:42:16) QtSignal All_Layers_WorksheetView167 All_Layers_WorksheetView167Header sectionMoved +
+\i (00:42:16) QtSignal 0 0 1
+\i (00:42:16) QtSignal All_Layers_WorksheetView167 All_Layers_WorksheetView167Header sectionMoved +
+\i (00:42:16) QtSignal 1 1 0
+\i (00:42:16) QtSignal Frozen_All_Layers_WorksheetView167 Frozen_All_Layers_WorksheetView167Header sectionMoved +
+\i (00:42:16) QtSignal 0 1 3
+\i (00:42:16) QtSignal Frozen_All_Layers_WorksheetView167 Frozen_All_Layers_WorksheetView167Header sectionMoved +
+\i (00:42:16) QtSignal 3 3 1
+\i (00:42:16) QtSignal All_Layers_WorksheetView167 All_Layers_WorksheetView167Header sectionMoved +
+\i (00:42:16) QtSignal 0 1 3
+\i (00:42:16) QtSignal All_Layers_WorksheetView167 All_Layers_WorksheetView167Header sectionMoved +
+\i (00:42:16) QtSignal 3 3 1
+\i (00:42:16) QtSignal CCMViewHost167 tableWidget currentChanged Amp
+\i (00:42:16) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Spacing
+\i (00:42:16) QtSignal m_domainSelector WS_Spacing itemSelectionChanged "Spacing Constraint Set" +
+\i (00:42:16) QtSignal "All Layers"
+\i (00:42:16) QtSignal Frozen_All_Layers_WorksheetView174 Frozen_All_Layers_WorksheetView174Header sectionMoved +
+\i (00:42:16) QtSignal 0 0 1
+\i (00:42:16) QtSignal Frozen_All_Layers_WorksheetView174 Frozen_All_Layers_WorksheetView174Header sectionMoved +
+\i (00:42:16) QtSignal 1 1 0
+\i (00:42:16) QtSignal All_Layers_WorksheetView174 All_Layers_WorksheetView174Header sectionMoved +
+\i (00:42:16) QtSignal 0 0 1
+\i (00:42:16) QtSignal All_Layers_WorksheetView174 All_Layers_WorksheetView174Header sectionMoved +
+\i (00:42:16) QtSignal 1 1 0
+\i (00:42:16) QtSignal Frozen_All_Layers_WorksheetView174 Frozen_All_Layers_WorksheetView174Header sectionMoved +
+\i (00:42:16) QtSignal 0 1 3
+\i (00:42:16) QtSignal Frozen_All_Layers_WorksheetView174 Frozen_All_Layers_WorksheetView174Header sectionMoved +
+\i (00:42:16) QtSignal 3 3 1
+\i (00:42:16) QtSignal All_Layers_WorksheetView174 All_Layers_WorksheetView174Header sectionMoved +
+\i (00:42:16) QtSignal 0 1 3
+\i (00:42:16) QtSignal All_Layers_WorksheetView174 All_Layers_WorksheetView174Header sectionMoved +
+\i (00:42:16) QtSignal 3 3 1
+\i (00:42:16) QtSignal CCMViewHost174 tableWidget currentChanged Amp
+\i (00:42:16) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged "Same Net Spacing"
+\i (00:42:16) QtSignal m_domainSelector WS_Same_Net_Spacing itemSelectionChanged
+\i (00:42:16) QtSignal m_domainSelector WS_Same_Net_Spacing itemSelectionChanged "Same Net Spacing Constraint Set" +
+\i (00:42:16) QtSignal "All Layers"
+\i (00:42:16) generaledit 
+\i (00:42:17) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Electrical
+\i (00:42:17) QtSignal m_domainSelector WS_Electrical itemSelectionChanged
+\i (00:42:20) QtSignal m_domainSelector WS_Electrical itemSelectionChanged Net
+\i (00:42:20) QtSignal m_domainSelector WS_Electrical itemClicked Net
+\i (00:42:24) QtSignal m_domainSelector WS_Electrical itemSelectionChanged Net Routing
+\i (00:42:24) QtSignal m_domainSelector WS_Electrical itemClicked Net Routing
+\i (00:43:09) QtSignal m_domainSelector WS_Electrical itemSelectionChanged Net Routing
+\i (00:43:09) QtSignal m_domainSelector WS_Electrical itemClicked Net Routing
+\i (00:44:28) QtSignal m_domainSelector WS_Electrical itemSelectionChanged Net
+\i (00:44:28) QtSignal m_domainSelector WS_Electrical itemClicked Net
+\i (00:44:29) QtSignal m_domainSelector WS_Electrical itemClicked Net
+\i (00:44:29) QtSignal m_domainSelector WS_Electrical customContextMenuRequest Net
+\i (00:44:31) QtFillin Expand
+\i (00:44:43) QtSignal m_domainSelector WS_Electrical itemSelectionChanged Net Routing Wiring
+\i (00:44:43) QtSignal m_domainSelector WS_Electrical itemClicked Net Routing Wiring
+\i (00:44:44) QtSignal m_domainSelector WS_Electrical itemSelectionChanged Net Routing Impedance
+\i (00:44:44) QtSignal m_domainSelector WS_Electrical itemClicked Net Routing Impedance
+\i (00:44:44) QtSignal m_domainSelector WS_Electrical itemSelectionChanged Net Routing "Min/Max Propagation Delays"
+\i (00:44:44) QtSignal m_domainSelector WS_Electrical itemClicked Net Routing "Min/Max Propagation Delays"
+\i (00:44:45) QtSignal m_domainSelector WS_Electrical itemSelectionChanged Net Routing "Total Etch Length"
+\i (00:44:45) QtSignal m_domainSelector WS_Electrical itemClicked Net Routing "Total Etch Length"
+\i (00:44:46) QtSignal m_domainSelector WS_Electrical itemSelectionChanged Net Routing "Differential Pair"
+\i (00:44:46) QtSignal m_domainSelector WS_Electrical itemClicked Net Routing "Differential Pair"
+\i (00:44:46) QtSignal m_domainSelector WS_Electrical itemSelectionChanged Net Routing "Relative Propagation Delay"
+\i (00:44:46) QtSignal m_domainSelector WS_Electrical itemClicked Net Routing "Relative Propagation Delay"
+\i (00:44:48) QtSignal m_domainSelector WS_Electrical itemSelectionChanged Net Routing Wiring
+\i (00:44:48) QtSignal m_domainSelector WS_Electrical itemClicked Net Routing Wiring
+\i (00:44:52) QtSignal m_domainSelector WS_Electrical itemClicked Net Routing Wiring
+\i (00:46:28) signal prefs 
+   (00:46:28) Loading sigallegro.cxt 
+\i (00:46:28) generaledit 
+\i (00:46:32) setwindow form.sigprefs
+\i (00:46:32) FORM sigprefs power_integrity_(legacy)  
+\i (00:46:36) FORM sigprefs cancel  
+\i (00:46:54) setwindow pcb
+\i (00:46:54) pick grid 133.3 52.0
+\t (00:46:54) last pick:  133.2 52.2
+\i (00:49:22) prepopup 140.9 57.4
+\i (00:50:19) pick grid 148.6 50.8
+\t (00:50:19) last pick:  148.8 51.0
+\i (00:54:42) identify nets 
+\i (00:54:55) setwindow form.fpsxidnets
+\i (00:54:55) FORM fpsxidnets fpidnnets '+12V           None' 
+\i (00:59:32) FORM fpsxidnets fpidnnets 'N15314         None' 
+\i (00:59:34) FORM fpsxidnets fpidnnets '+12V           None' 
+\i (00:59:41) FORM fpsxidnets fpidnvoltage +12V 
+\i (00:59:41) FORM fpsxidnets fpidnnets 'N15329         None' 
+\i (00:59:42) FORM fpsxidnets fpidnnets 'N15329         None' 
+\i (00:59:49) FORM fpsxidnets fpidnvoltage 0V 
+\i (00:59:49) FORM fpsxidnets fpidnnets '+12V           12 V' 
+\i (00:59:52) FORM fpsxidnets apply  
+\i (00:59:55) FORM fpsxidnets done  
+\i (00:59:55) setwindow pcb
+\i (00:59:55) generaledit 
+\i (01:02:14) signal setup 
+\i (01:02:16) setwindow form.sigSetup
+\i (01:02:16) FORM sigSetup wiz_next  
+\i (01:02:16) FORM sigSetup selectedxnets  'Dsn AMP' 
+\i (01:02:21) FORM sigSetup wiz_next  
+   (01:02:21) *Error* setq/set: Variable is protected and cannot be assigned to - treeItem
+\i (01:02:24) FORM sigSetup wiz_next  
+\i (01:02:25) FORM sigSetup wiz_next  
+\i (01:02:26) FORM sigSetup wiz_next  
+   (01:02:26) *Error* setq/set: Variable is protected and cannot be assigned to - treeItem
+\i (01:02:29) FORM sigSetup showwhyvoltagenet  
+   (01:02:29) *Error* difference: can't handle (nil - 1)
+\i (01:02:31) FORM sigSetup editvoltageonanynet  
+   (01:02:31) *Error* _fpSAGetPropOnObject: argument #1 should be a list (type template = "lt") - 1
+\i (01:02:34) FORM sigSetup cancel  
+\i (01:02:34) setwindow pcb
+\i (01:02:34) generaledit 
+\i (01:02:39) signal setup 
+\i (01:02:40) setwindow form.sigSetup
+\i (01:02:40) FORM sigSetup wiz_next  
+\i (01:02:40) FORM sigSetup selectedxnets  'Dsn AMP' 
+\i (01:02:41) FORM sigSetup wiz_next  
+   (01:02:41) *Error* setq/set: Variable is protected and cannot be assigned to - treeItem
+\i (01:02:42) FORM sigSetup wiz_next  
+\i (01:02:43) FORM sigSetup wiz_next  
+\i (01:02:44) FORM sigSetup wiz_next  
+   (01:02:44) *Error* setq/set: Variable is protected and cannot be assigned to - treeItem
+\i (01:02:45) FORM sigSetup definepossiblevoltageformats  
+\i (01:02:49) setwindow form.sigDefineVoltageNameFormats
+\i (01:02:49) FORM sigDefineVoltageNameFormats voltageformatstrings +12V 
+\i (01:02:51) FORM sigDefineVoltageNameFormats voltageformatstrings 0V 
+\i (01:02:51) FORM sigDefineVoltageNameFormats voltageformatstrings 0V 
+\i (01:02:51) FORM sigDefineVoltageNameFormats voltageformatstrings 0V 
+\i (01:02:53) FORM sigDefineVoltageNameFormats deleteformatstring  
+\i (01:02:54) FORM sigDefineVoltageNameFormats addformatstring  
+\i (01:02:56) fillin "0v"
+\i (01:02:59) FORM sigDefineVoltageNameFormats myok  
+   (01:02:59) *Error* setq/set: Variable is protected and cannot be assigned to - treeItem
+\i (01:03:01) setwindow form.sigSetup
+\i (01:03:01) FORM sigSetup wiz_next  
+\i (01:03:02) FORM sigSetup wiz_next  
+   (01:03:02) *Error* setq/set: Variable is protected and cannot be assigned to - treeItem
+\i (01:03:02) FORM sigSetup wiz_next  
+\i (01:03:03) FORM sigSetup wiz_next  
+\i (01:03:05) FORM sigSetup wiz_next  
+   (01:03:05) *Error* setq/set: Variable is protected and cannot be assigned to - treeItem
+\i (01:03:06) FORM sigSetup showwhyvoltagenet  
+   (01:03:06) *Error* difference: can't handle (nil - 1)
+\i (01:03:07) FORM sigSetup showwhyvoltagenet  
+   (01:03:07) *Error* difference: can't handle (nil - 1)
+\i (01:03:09) FORM sigSetup identifyvoltagenet  
+   (01:03:09) *Error* difference: can't handle (nil - 1)
+\i (01:03:12) setwindow pcb
+\i (01:03:12) pick grid 148.7 70.4
+\t (01:03:12) last pick:  148.8 70.2
+\i (01:03:15) setwindow form.sigSetup
+\i (01:03:15) FORM sigSetup editvoltagenet  
+   (01:03:15) *Error* difference: can't handle (nil - 1)
+\i (01:03:17) FORM sigSetup editvoltageonanynet  
+   (01:03:17) *Error* setq/set: Variable is protected and cannot be assigned to - treeItem
+\i (01:03:20) setwindow form.fpsxidnets
+\i (01:03:20) FORM fpsxidnets fpidnnetfilter  
+\i (01:03:31) FORM fpsxidnets apply  
+\i (01:03:33) FORM fpsxidnets done  
+\i (01:03:38) FORM fpsxidnets fpidnnetfilter +12V 
+   (01:03:38) *Error* _fpSAGetPropOnObject: argument #1 should be a list (type template = "lt") - 1
+\i (01:03:38) FORM fpsxidnets done  
+\i (01:03:46) FORM fpsxidnets possiblevoltagenetnames  
+\i (01:03:49) setwindow form.sigDefineVoltageNameFormats
+\i (01:03:49) FORM sigDefineVoltageNameFormats cancel  
+\i (01:03:57) setwindow form.fpsxidnets
+\i (01:03:57) FORM fpsxidnets fpidnnetfilter  
+\i (01:03:57) FORM fpsxidnets help  
+\i (01:04:06) FORM fpsxidnets help  
+\i (01:04:07) FORM fpsxidnets cancel  
+\i (01:04:37) FORM fpsxidnets cancel  
+\i (01:04:38) setwindow form.sigSetup
+\i (01:04:38) FORM sigSetup cancel  
+\i (01:04:38) setwindow pcb
+\i (01:04:38) generaledit 
+\i (01:04:47) save 
+\i (01:04:49) fillin yes 
+\i (01:04:49) generaledit 
+\i (01:04:57) identify nets 
+\i (01:05:04) setwindow form.fpsxidnets
+\i (01:05:04) FORM fpsxidnets done  
+\i (01:05:04) setwindow pcb
+\i (01:05:04) generaledit 
+\i (01:05:08) identify nets 
+\i (01:07:25) setwindow form.fpsxidnets
+\i (01:07:25) FORM fpsxidnets apply  
+\i (01:07:26) FORM fpsxidnets apply  
+\i (01:07:26) FORM fpsxidnets apply  
+\i (01:07:27) FORM fpsxidnets done  
+\i (01:07:27) setwindow pcb
+\i (01:07:27) generaledit 
+\i (01:07:35) signal setup 
+\i (01:07:36) setwindow form.sigSetup
+\i (01:07:36) FORM sigSetup wiz_next  
+\i (01:07:36) FORM sigSetup selectedxnets  'Dsn AMP' 
+\i (01:07:37) FORM sigSetup wiz_next  
+   (01:07:37) *Error* setq/set: Variable is protected and cannot be assigned to - treeItem
+\i (01:07:37) FORM sigSetup wiz_next  
+\i (01:07:39) FORM sigSetup wiz_next  
+\i (01:07:40) FORM sigSetup wiz_next  
+   (01:07:40) *Error* setq/set: Variable is protected and cannot be assigned to - treeItem
+\i (01:07:41) FORM sigSetup showwhyvoltagenet  
+   (01:07:41) *Error* difference: can't handle (nil - 1)
+\i (01:07:43) FORM sigSetup definepossiblevoltageformats  
+\i (01:07:45) setwindow form.sigDefineVoltageNameFormats
+\i (01:07:45) FORM sigDefineVoltageNameFormats cancel  
+\i (01:07:46) setwindow form.sigSetup
+\i (01:07:46) FORM sigSetup wiz_next  
+\i (01:07:47) FORM sigSetup wiz_next  
+   (01:07:47) *Error* setq/set: Variable is protected and cannot be assigned to - treeItem
+\i (01:07:47) FORM sigSetup wiz_next  
+\i (01:07:48) FORM sigSetup wiz_next  
+\i (01:07:48) FORM sigSetup wiz_next  
+   (01:07:48) *Error* setq/set: Variable is protected and cannot be assigned to - treeItem
+\i (01:07:49) FORM sigSetup editvoltageonanynet  
+   (01:07:49) *Error* _fpSAGetPropOnObject: argument #1 should be a list (type template = "lt") - 1
+\i (01:07:52) FORM sigSetup cancel  
+\i (01:07:52) setwindow pcb
+\i (01:07:52) generaledit 
+\i (01:07:57) signal setup 
+\i (01:07:58) setwindow form.sigSetup
+\i (01:07:58) FORM sigSetup wiz_next  
+\i (01:07:58) FORM sigSetup selectedxnets  'Dsn AMP' 
+\i (01:07:58) FORM sigSetup wiz_next  
+   (01:07:58) *Error* setq/set: Variable is protected and cannot be assigned to - treeItem
+\i (01:07:58) FORM sigSetup wiz_next  
+\i (01:08:00) FORM sigSetup wiz_next  
+\i (01:08:01) FORM sigSetup wiz_next  
+   (01:08:01) *Error* setq/set: Variable is protected and cannot be assigned to - treeItem
+\i (01:08:02) FORM sigSetup editvoltageonanynet  
+   (01:08:02) *Error* setq/set: Variable is protected and cannot be assigned to - treeItem
+\i (01:08:47) setwindow form.fpsxidnets
+\i (01:08:47) FORM fpsxidnets cancel  
+\i (01:08:48) setwindow form.sigSetup
+\i (01:08:48) FORM sigSetup cancel  
+\i (01:08:48) setwindow pcb
+\i (01:08:48) generaledit 
+\i (01:09:06) pick grid 135.6 75.1
+\t (01:09:06) last pick:  135.6 75.0
+\i (01:09:54) tbx changenet 
+\i (01:09:54) helpcmd C:/Users/JAVIER~1/AppData/Local/Temp/#Taaaacx06520.tmp 
+   (01:09:55) Loading toolbox.cxt 
+   (01:09:55) Initializing toolbox...
+   (01:09:55) For additional help enter: 'tbx help changenet' in console window
+   (01:09:55) Select objects by pick or window
+\i (01:10:00) setwindow form.mini
+\i (01:10:00) FORM mini net_list N15329 
+\i (01:10:01) FORM mini net_list N15329 
+\i (01:10:02) FORM mini net_list N15329 
+\i (01:10:02) FORM mini net_list N15329 
+\i (01:10:03) FORM mini net_list N15329 
+\i (01:10:03) FORM mini net_list N15329 
+\i (01:10:04) FORM mini net_list N15329 
+\i (01:10:13) setwindow pcb
+\i (01:10:13) net schedule 
+\i (01:10:19) net_properties 
+\i (01:10:20) QtSignal m_domainSelector WS_Electrical itemSelectionChanged
+\i (01:10:20) QtSignal m_domainSelector WS_Physical itemSelectionChanged
+\i (01:10:20) QtSignal m_domainSelector WS_Spacing itemSelectionChanged
+\i (01:10:20) QtSignal m_domainSelector WS_Same_Net_Spacing itemSelectionChanged
+\i (01:10:20) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged
+\i (01:10:20) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Electrical
+\i (01:10:20) QtSignal m_domainSelector WS_Electrical itemSelectionChanged Net Routing Wiring
+\i (01:10:20) QtSignal Frozen_Differential_Pair_WorksheetView32 Frozen_Differential_Pair_WorksheetView32Header sectionMoved +
+\i (01:10:20) QtSignal 0 0 1
+\i (01:10:20) QtSignal Frozen_Differential_Pair_WorksheetView32 Frozen_Differential_Pair_WorksheetView32Header sectionMoved +
+\i (01:10:20) QtSignal 1 1 0
+\i (01:10:20) QtSignal Differential_Pair_WorksheetView32 Differential_Pair_WorksheetView32Header sectionMoved +
+\i (01:10:20) QtSignal 0 0 1
+\i (01:10:20) QtSignal Differential_Pair_WorksheetView32 Differential_Pair_WorksheetView32Header sectionMoved +
+\i (01:10:20) QtSignal 1 1 0
+\i (01:10:20) QtSignal Frozen_Differential_Pair_WorksheetView32 Frozen_Differential_Pair_WorksheetView32Header sectionMoved +
+\i (01:10:20) QtSignal 0 1 3
+\i (01:10:20) QtSignal Frozen_Differential_Pair_WorksheetView32 Frozen_Differential_Pair_WorksheetView32Header sectionMoved +
+\i (01:10:20) QtSignal 3 3 1
+\i (01:10:20) QtSignal Differential_Pair_WorksheetView32 Differential_Pair_WorksheetView32Header sectionMoved +
+\i (01:10:20) QtSignal 0 1 3
+\i (01:10:20) QtSignal Differential_Pair_WorksheetView32 Differential_Pair_WorksheetView32Header sectionMoved +
+\i (01:10:20) QtSignal 3 3 1
+\i (01:10:20) QtSignal CCMViewHost32 tableWidget currentChanged Amp
+\i (01:10:20) QtSignal m_domainSelector WS_Electrical itemSelectionChanged
+\i (01:10:20) QtSignal m_domainSelector WS_Electrical itemSelectionChanged "Electrical Constraint Set" +
+\i (01:10:20) QtSignal Routing "Differential Pair"
+\i (01:10:20) QtSignal Frozen_All_Layers_WorksheetView58 Frozen_All_Layers_WorksheetView58Header sectionMoved +
+\i (01:10:20) QtSignal 0 0 1
+\i (01:10:20) QtSignal Frozen_All_Layers_WorksheetView58 Frozen_All_Layers_WorksheetView58Header sectionMoved +
+\i (01:10:20) QtSignal 1 1 0
+\i (01:10:20) QtSignal All_Layers_WorksheetView58 All_Layers_WorksheetView58Header sectionMoved +
+\i (01:10:20) QtSignal 0 0 1
+\i (01:10:20) QtSignal All_Layers_WorksheetView58 All_Layers_WorksheetView58Header sectionMoved +
+\i (01:10:20) QtSignal 1 1 0
+\i (01:10:20) QtSignal Frozen_All_Layers_WorksheetView58 Frozen_All_Layers_WorksheetView58Header sectionMoved +
+\i (01:10:20) QtSignal 0 1 3
+\i (01:10:20) QtSignal Frozen_All_Layers_WorksheetView58 Frozen_All_Layers_WorksheetView58Header sectionMoved +
+\i (01:10:20) QtSignal 3 3 1
+\i (01:10:20) QtSignal All_Layers_WorksheetView58 All_Layers_WorksheetView58Header sectionMoved +
+\i (01:10:20) QtSignal 0 1 3
+\i (01:10:20) QtSignal All_Layers_WorksheetView58 All_Layers_WorksheetView58Header sectionMoved +
+\i (01:10:20) QtSignal 3 3 1
+\i (01:10:20) QtSignal CCMViewHost58 tableWidget currentChanged Amp
+\i (01:10:20) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Physical
+\i (01:10:20) QtSignal m_domainSelector WS_Physical itemSelectionChanged "Physical Constraint Set" +
+\i (01:10:20) QtSignal "All Layers"
+\i (01:10:20) QtSignal Frozen_All_Layers_WorksheetView167 Frozen_All_Layers_WorksheetView167Header sectionMoved +
+\i (01:10:20) QtSignal 0 0 1
+\i (01:10:20) QtSignal Frozen_All_Layers_WorksheetView167 Frozen_All_Layers_WorksheetView167Header sectionMoved +
+\i (01:10:20) QtSignal 1 1 0
+\i (01:10:20) QtSignal All_Layers_WorksheetView167 All_Layers_WorksheetView167Header sectionMoved +
+\i (01:10:20) QtSignal 0 0 1
+\i (01:10:20) QtSignal All_Layers_WorksheetView167 All_Layers_WorksheetView167Header sectionMoved +
+\i (01:10:20) QtSignal 1 1 0
+\i (01:10:20) QtSignal Frozen_All_Layers_WorksheetView167 Frozen_All_Layers_WorksheetView167Header sectionMoved +
+\i (01:10:20) QtSignal 0 1 3
+\i (01:10:20) QtSignal Frozen_All_Layers_WorksheetView167 Frozen_All_Layers_WorksheetView167Header sectionMoved +
+\i (01:10:20) QtSignal 3 3 1
+\i (01:10:20) QtSignal All_Layers_WorksheetView167 All_Layers_WorksheetView167Header sectionMoved +
+\i (01:10:20) QtSignal 0 1 3
+\i (01:10:20) QtSignal All_Layers_WorksheetView167 All_Layers_WorksheetView167Header sectionMoved +
+\i (01:10:20) QtSignal 3 3 1
+\i (01:10:20) QtSignal CCMViewHost167 tableWidget currentChanged Amp
+\i (01:10:20) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Spacing
+\i (01:10:20) QtSignal m_domainSelector WS_Spacing itemSelectionChanged "Spacing Constraint Set" +
+\i (01:10:20) QtSignal "All Layers"
+\i (01:10:20) QtSignal Frozen_All_Layers_WorksheetView174 Frozen_All_Layers_WorksheetView174Header sectionMoved +
+\i (01:10:20) QtSignal 0 0 1
+\i (01:10:20) QtSignal Frozen_All_Layers_WorksheetView174 Frozen_All_Layers_WorksheetView174Header sectionMoved +
+\i (01:10:20) QtSignal 1 1 0
+\i (01:10:20) QtSignal All_Layers_WorksheetView174 All_Layers_WorksheetView174Header sectionMoved +
+\i (01:10:20) QtSignal 0 0 1
+\i (01:10:20) QtSignal All_Layers_WorksheetView174 All_Layers_WorksheetView174Header sectionMoved +
+\i (01:10:20) QtSignal 1 1 0
+\i (01:10:20) QtSignal Frozen_All_Layers_WorksheetView174 Frozen_All_Layers_WorksheetView174Header sectionMoved +
+\i (01:10:20) QtSignal 0 1 3
+\i (01:10:20) QtSignal Frozen_All_Layers_WorksheetView174 Frozen_All_Layers_WorksheetView174Header sectionMoved +
+\i (01:10:20) QtSignal 3 3 1
+\i (01:10:20) QtSignal All_Layers_WorksheetView174 All_Layers_WorksheetView174Header sectionMoved +
+\i (01:10:20) QtSignal 0 1 3
+\i (01:10:20) QtSignal All_Layers_WorksheetView174 All_Layers_WorksheetView174Header sectionMoved +
+\i (01:10:20) QtSignal 3 3 1
+\i (01:10:20) QtSignal CCMViewHost174 tableWidget currentChanged Amp
+\i (01:10:20) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged "Same Net Spacing"
+\i (01:10:20) QtSignal m_domainSelector WS_Same_Net_Spacing itemSelectionChanged "Same Net Spacing Constraint Set" +
+\i (01:10:20) QtSignal "All Layers"
+\i (01:10:20) QtSignal Frozen_Wiring_WorksheetView26 Frozen_Wiring_WorksheetView26Header sectionMoved +
+\i (01:10:20) QtSignal 0 0 1
+\i (01:10:20) QtSignal Frozen_Wiring_WorksheetView26 Frozen_Wiring_WorksheetView26Header sectionMoved +
+\i (01:10:20) QtSignal 1 1 0
+\i (01:10:20) QtSignal Wiring_WorksheetView26 Wiring_WorksheetView26Header sectionMoved 0 0 1
+\i (01:10:20) QtSignal Wiring_WorksheetView26 Wiring_WorksheetView26Header sectionMoved 1 1 0
+\i (01:10:20) QtSignal Frozen_Wiring_WorksheetView26 Frozen_Wiring_WorksheetView26Header sectionMoved +
+\i (01:10:20) QtSignal 0 1 3
+\i (01:10:20) QtSignal Frozen_Wiring_WorksheetView26 Frozen_Wiring_WorksheetView26Header sectionMoved +
+\i (01:10:20) QtSignal 3 3 1
+\i (01:10:20) QtSignal Wiring_WorksheetView26 Wiring_WorksheetView26Header sectionMoved 0 1 3
+\i (01:10:20) QtSignal Wiring_WorksheetView26 Wiring_WorksheetView26Header sectionMoved 3 3 1
+\i (01:10:20) QtSignal CCMViewHost26 tableWidget currentChanged Amp
+\i (01:10:20) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Electrical
+\i (01:10:20) QtSignal m_domainSelector WS_Electrical itemSelectionChanged
+\i (01:10:20) QtSignal m_domainSelector WS_Electrical itemSelectionChanged Net Routing Wiring
+\i (01:10:20) QtSignal Frozen_General_Properties_WorksheetView37 Frozen_General_Properties_WorksheetView37Header sectionMoved +
+\i (01:10:20) QtSignal 0 0 1
+\i (01:10:20) QtSignal Frozen_General_Properties_WorksheetView37 Frozen_General_Properties_WorksheetView37Header sectionMoved +
+\i (01:10:20) QtSignal 1 1 0
+\i (01:10:20) QtSignal General_Properties_WorksheetView37 General_Properties_WorksheetView37Header sectionMoved +
+\i (01:10:20) QtSignal 0 0 1
+\i (01:10:20) QtSignal General_Properties_WorksheetView37 General_Properties_WorksheetView37Header sectionMoved +
+\i (01:10:20) QtSignal 1 1 0
+\i (01:10:20) QtSignal Frozen_General_Properties_WorksheetView37 Frozen_General_Properties_WorksheetView37Header sectionMoved +
+\i (01:10:20) QtSignal 0 1 3
+\i (01:10:20) QtSignal Frozen_General_Properties_WorksheetView37 Frozen_General_Properties_WorksheetView37Header sectionMoved +
+\i (01:10:20) QtSignal 3 3 1
+\i (01:10:20) QtSignal General_Properties_WorksheetView37 General_Properties_WorksheetView37Header sectionMoved +
+\i (01:10:20) QtSignal 0 1 3
+\i (01:10:20) QtSignal General_Properties_WorksheetView37 General_Properties_WorksheetView37Header sectionMoved +
+\i (01:10:20) QtSignal 3 3 1
+\i (01:10:21) QtSignal CCMViewHost37 tableWidget currentChanged Amp
+\i (01:10:21) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Properties
+\i (01:10:21) QtSignal m_domainSelector WS_Properties itemSelectionChanged Net "General Properties"
+\t (01:10:23) Object selection is not appropriate at this time.
+\t (01:10:27) Object selection is not appropriate at this time.
+\t (01:10:28) Object selection is not appropriate at this time.
+\i (01:10:29) QtSignal General_Properties_WorksheetView37 Frozen_General_Properties_WorksheetView37 ContextMenu +
+\i (01:10:29) QtSignal "(AMP.N15329,NAME)"
+\t (01:10:32) Object selection is not appropriate at this time.
+\t (01:10:32) Object selection is not appropriate at this time.
+\t (01:10:34) Object selection is not appropriate at this time.
+\i (01:10:47) identify nets 
+\i (01:10:48) setwindow form.fpsxidnets
+\i (01:10:48) FORM fpsxidnets fpidnnets 'N15329         0 V' 
+\i (01:10:49) FORM fpsxidnets fpidnnets 'N15329         0 V' 
+\i (01:10:49) FORM fpsxidnets fpidnnets 'N15329         0 V' 
+\i (01:10:54) FORM fpsxidnets cancel  
+\i (01:10:54) setwindow pcb
+\i (01:10:54) generaledit 
+\i (01:11:00) cmgr 
+\i (01:11:00) QtSignal m_domainSelector WS_Electrical itemSelectionChanged
+\i (01:11:00) QtSignal m_domainSelector WS_Physical itemSelectionChanged
+\i (01:11:00) QtSignal m_domainSelector WS_Spacing itemSelectionChanged
+\i (01:11:00) QtSignal m_domainSelector WS_Same_Net_Spacing itemSelectionChanged
+\i (01:11:00) QtSignal m_domainSelector WS_Properties itemSelectionChanged
+\i (01:11:00) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Electrical
+\i (01:11:00) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged
+\i (01:11:00) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Electrical
+\i (01:11:00) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Properties
+\i (01:11:00) QtSignal m_domainSelector WS_Properties itemSelectionChanged Net "General Properties"
+\i (01:11:00) QtSignal Frozen_Differential_Pair_WorksheetView32 Frozen_Differential_Pair_WorksheetView32Header sectionMoved +
+\i (01:11:00) QtSignal 0 0 1
+\i (01:11:00) QtSignal Frozen_Differential_Pair_WorksheetView32 Frozen_Differential_Pair_WorksheetView32Header sectionMoved +
+\i (01:11:00) QtSignal 1 1 0
+\i (01:11:00) QtSignal Differential_Pair_WorksheetView32 Differential_Pair_WorksheetView32Header sectionMoved +
+\i (01:11:00) QtSignal 0 0 1
+\i (01:11:00) QtSignal Differential_Pair_WorksheetView32 Differential_Pair_WorksheetView32Header sectionMoved +
+\i (01:11:00) QtSignal 1 1 0
+\i (01:11:00) QtSignal Frozen_Differential_Pair_WorksheetView32 Frozen_Differential_Pair_WorksheetView32Header sectionMoved +
+\i (01:11:00) QtSignal 0 1 3
+\i (01:11:00) QtSignal Frozen_Differential_Pair_WorksheetView32 Frozen_Differential_Pair_WorksheetView32Header sectionMoved +
+\i (01:11:00) QtSignal 3 3 1
+\i (01:11:00) QtSignal Differential_Pair_WorksheetView32 Differential_Pair_WorksheetView32Header sectionMoved +
+\i (01:11:00) QtSignal 0 1 3
+\i (01:11:00) QtSignal Differential_Pair_WorksheetView32 Differential_Pair_WorksheetView32Header sectionMoved +
+\i (01:11:00) QtSignal 3 3 1
+\i (01:11:00) QtSignal CCMViewHost32 tableWidget currentChanged Amp
+\i (01:11:00) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Electrical
+\i (01:11:00) QtSignal m_domainSelector WS_Electrical itemSelectionChanged "Electrical Constraint Set" +
+\i (01:11:00) QtSignal Routing "Differential Pair"
+\i (01:11:00) QtSignal Frozen_All_Layers_WorksheetView58 Frozen_All_Layers_WorksheetView58Header sectionMoved +
+\i (01:11:00) QtSignal 0 0 1
+\i (01:11:00) QtSignal Frozen_All_Layers_WorksheetView58 Frozen_All_Layers_WorksheetView58Header sectionMoved +
+\i (01:11:00) QtSignal 1 1 0
+\i (01:11:00) QtSignal All_Layers_WorksheetView58 All_Layers_WorksheetView58Header sectionMoved +
+\i (01:11:00) QtSignal 0 0 1
+\i (01:11:00) QtSignal All_Layers_WorksheetView58 All_Layers_WorksheetView58Header sectionMoved +
+\i (01:11:00) QtSignal 1 1 0
+\i (01:11:00) QtSignal Frozen_All_Layers_WorksheetView58 Frozen_All_Layers_WorksheetView58Header sectionMoved +
+\i (01:11:00) QtSignal 0 1 3
+\i (01:11:00) QtSignal Frozen_All_Layers_WorksheetView58 Frozen_All_Layers_WorksheetView58Header sectionMoved +
+\i (01:11:00) QtSignal 3 3 1
+\i (01:11:00) QtSignal All_Layers_WorksheetView58 All_Layers_WorksheetView58Header sectionMoved +
+\i (01:11:00) QtSignal 0 1 3
+\i (01:11:00) QtSignal All_Layers_WorksheetView58 All_Layers_WorksheetView58Header sectionMoved +
+\i (01:11:00) QtSignal 3 3 1
+\i (01:11:00) QtSignal CCMViewHost58 tableWidget currentChanged Amp
+\i (01:11:00) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Physical
+\i (01:11:00) QtSignal m_domainSelector WS_Physical itemSelectionChanged "Physical Constraint Set" +
+\i (01:11:00) QtSignal "All Layers"
+\i (01:11:00) QtSignal Frozen_All_Layers_WorksheetView167 Frozen_All_Layers_WorksheetView167Header sectionMoved +
+\i (01:11:00) QtSignal 0 0 1
+\i (01:11:00) QtSignal Frozen_All_Layers_WorksheetView167 Frozen_All_Layers_WorksheetView167Header sectionMoved +
+\i (01:11:00) QtSignal 1 1 0
+\i (01:11:00) QtSignal All_Layers_WorksheetView167 All_Layers_WorksheetView167Header sectionMoved +
+\i (01:11:00) QtSignal 0 0 1
+\i (01:11:00) QtSignal All_Layers_WorksheetView167 All_Layers_WorksheetView167Header sectionMoved +
+\i (01:11:00) QtSignal 1 1 0
+\i (01:11:00) QtSignal Frozen_All_Layers_WorksheetView167 Frozen_All_Layers_WorksheetView167Header sectionMoved +
+\i (01:11:00) QtSignal 0 1 3
+\i (01:11:00) QtSignal Frozen_All_Layers_WorksheetView167 Frozen_All_Layers_WorksheetView167Header sectionMoved +
+\i (01:11:00) QtSignal 3 3 1
+\i (01:11:00) QtSignal All_Layers_WorksheetView167 All_Layers_WorksheetView167Header sectionMoved +
+\i (01:11:00) QtSignal 0 1 3
+\i (01:11:00) QtSignal All_Layers_WorksheetView167 All_Layers_WorksheetView167Header sectionMoved +
+\i (01:11:00) QtSignal 3 3 1
+\i (01:11:00) QtSignal CCMViewHost167 tableWidget currentChanged Amp
+\i (01:11:00) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Spacing
+\i (01:11:00) QtSignal m_domainSelector WS_Spacing itemSelectionChanged "Spacing Constraint Set" +
+\i (01:11:00) QtSignal "All Layers"
+\i (01:11:00) QtSignal Frozen_All_Layers_WorksheetView174 Frozen_All_Layers_WorksheetView174Header sectionMoved +
+\i (01:11:00) QtSignal 0 0 1
+\i (01:11:00) QtSignal Frozen_All_Layers_WorksheetView174 Frozen_All_Layers_WorksheetView174Header sectionMoved +
+\i (01:11:00) QtSignal 1 1 0
+\i (01:11:00) QtSignal All_Layers_WorksheetView174 All_Layers_WorksheetView174Header sectionMoved +
+\i (01:11:00) QtSignal 0 0 1
+\i (01:11:00) QtSignal All_Layers_WorksheetView174 All_Layers_WorksheetView174Header sectionMoved +
+\i (01:11:00) QtSignal 1 1 0
+\i (01:11:00) QtSignal Frozen_All_Layers_WorksheetView174 Frozen_All_Layers_WorksheetView174Header sectionMoved +
+\i (01:11:00) QtSignal 0 1 3
+\i (01:11:00) QtSignal Frozen_All_Layers_WorksheetView174 Frozen_All_Layers_WorksheetView174Header sectionMoved +
+\i (01:11:00) QtSignal 3 3 1
+\i (01:11:00) QtSignal All_Layers_WorksheetView174 All_Layers_WorksheetView174Header sectionMoved +
+\i (01:11:00) QtSignal 0 1 3
+\i (01:11:00) QtSignal All_Layers_WorksheetView174 All_Layers_WorksheetView174Header sectionMoved +
+\i (01:11:00) QtSignal 3 3 1
+\i (01:11:00) QtSignal CCMViewHost174 tableWidget currentChanged Amp
+\i (01:11:00) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged "Same Net Spacing"
+\i (01:11:00) QtSignal m_domainSelector WS_Same_Net_Spacing itemSelectionChanged "Same Net Spacing Constraint Set" +
+\i (01:11:00) QtSignal "All Layers"
+\i (01:11:00) QtSignal Frozen_Wiring_WorksheetView26 Frozen_Wiring_WorksheetView26Header sectionMoved +
+\i (01:11:00) QtSignal 0 0 1
+\i (01:11:00) QtSignal Frozen_Wiring_WorksheetView26 Frozen_Wiring_WorksheetView26Header sectionMoved +
+\i (01:11:00) QtSignal 1 1 0
+\i (01:11:00) QtSignal Wiring_WorksheetView26 Wiring_WorksheetView26Header sectionMoved 0 0 1
+\i (01:11:00) QtSignal Wiring_WorksheetView26 Wiring_WorksheetView26Header sectionMoved 1 1 0
+\i (01:11:00) QtSignal Frozen_Wiring_WorksheetView26 Frozen_Wiring_WorksheetView26Header sectionMoved +
+\i (01:11:00) QtSignal 0 1 3
+\i (01:11:00) QtSignal Frozen_Wiring_WorksheetView26 Frozen_Wiring_WorksheetView26Header sectionMoved +
+\i (01:11:00) QtSignal 3 3 1
+\i (01:11:00) QtSignal Wiring_WorksheetView26 Wiring_WorksheetView26Header sectionMoved 0 1 3
+\i (01:11:00) QtSignal Wiring_WorksheetView26 Wiring_WorksheetView26Header sectionMoved 3 3 1
+\i (01:11:00) QtSignal CCMViewHost26 tableWidget currentChanged Amp
+\i (01:11:00) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Electrical
+\i (01:11:00) QtSignal m_domainSelector WS_Electrical itemSelectionChanged
+\i (01:11:00) QtSignal m_domainSelector WS_Electrical itemSelectionChanged Net Routing Wiring
+\i (01:11:00) QtSignal Frozen_General_Properties_WorksheetView37 Frozen_General_Properties_WorksheetView37Header sectionMoved +
+\i (01:11:00) QtSignal 0 0 1
+\i (01:11:00) QtSignal Frozen_General_Properties_WorksheetView37 Frozen_General_Properties_WorksheetView37Header sectionMoved +
+\i (01:11:00) QtSignal 1 1 0
+\i (01:11:00) QtSignal General_Properties_WorksheetView37 General_Properties_WorksheetView37Header sectionMoved +
+\i (01:11:00) QtSignal 0 0 1
+\i (01:11:00) QtSignal General_Properties_WorksheetView37 General_Properties_WorksheetView37Header sectionMoved +
+\i (01:11:00) QtSignal 1 1 0
+\i (01:11:00) QtSignal Frozen_General_Properties_WorksheetView37 Frozen_General_Properties_WorksheetView37Header sectionMoved +
+\i (01:11:00) QtSignal 0 1 3
+\i (01:11:00) QtSignal Frozen_General_Properties_WorksheetView37 Frozen_General_Properties_WorksheetView37Header sectionMoved +
+\i (01:11:00) QtSignal 3 3 1
+\i (01:11:00) QtSignal General_Properties_WorksheetView37 General_Properties_WorksheetView37Header sectionMoved +
+\i (01:11:00) QtSignal 0 1 3
+\i (01:11:00) QtSignal General_Properties_WorksheetView37 General_Properties_WorksheetView37Header sectionMoved +
+\i (01:11:00) QtSignal 3 3 1
+\i (01:11:00) QtSignal CCMViewHost37 tableWidget currentChanged Amp
+\i (01:11:00) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Properties
+\i (01:11:00) QtSignal m_domainSelector WS_Properties itemSelectionChanged
+\i (01:11:00) QtSignal m_domainSelector WS_Properties itemSelectionChanged Net "General Properties"
+\i (01:11:01) generaledit 
+\i (01:11:02) trapsize 1
+\i (01:11:02) trapsize 1
+\i (01:11:05) trapsize 1
+\i (01:11:05) trapsize 1
+\i (01:11:06) QtSignal General_Properties_WorksheetView37 Frozen_General_Properties_WorksheetView37 ContextMenu +
+\i (01:11:06) QtSignal "(AMP.N15329,NAME)"
+\i (01:11:11) trapsize 1
+\i (01:11:11) trapsize 1
+\i (01:11:12) trapsize 1
+\i (01:11:12) trapsize 1
+\i (01:11:12) trapsize 1
+\i (01:11:12) trapsize 1
+\i (01:11:13) trapsize 1
+\i (01:11:13) trapsize 1
+\i (01:11:20) QtSignal General_Properties_WorksheetView37 Frozen_General_Properties_WorksheetView37 ContextMenu +
+\i (01:11:20) QtSignal "(AMP.N15329,NAME)"
+\i (01:11:28) QtSignal m_menuBar menuObjects Triggered "Select and Show Element"
+\i (01:11:28) trapsize 1
+\i (01:11:28) trapsize 1
+\i (01:11:28) QtSignal superMenu RMBMenu Triggered "Select and Show Element"
+\i (01:11:28) QtSignal superMenu RMBMenu Triggered "Select and Show Element"
+\i (01:11:37) setwindow text
+\i (01:11:37) close
+\i (01:11:39) setwindow pcb
+\i (01:11:39) zoom out 
+\i (01:11:39) setwindow pcb
+\i (01:11:39) zoom out 135.6 68.2
+\i (01:11:39) trapsize 2
+\i (01:11:40) zoom out 
+\i (01:11:40) setwindow pcb
+\i (01:11:40) zoom out 135.7 68.2
+\i (01:11:40) trapsize 4
+\i (01:11:48) prepopup 136.6 75.0
+\i (01:11:55) pop dyn_option_select '@:@Property edit' 
+\i (01:11:55) property edit 
+\i (01:12:10) setwindow form.editprop1
+\i (01:12:10) FORM editprop1 properties Same_Net 
+\i (01:12:25) FORM editprop1 properties Hole_To_Shape_Spacing 
+\i (01:12:32) FORM editprop1 properties Assign_Route_Layer 
+\i (01:12:42) FORM editprop1 prop_name GND 
+\e (01:12:42) Unknown property: 'GND'.
+\i (01:12:52) FORM editprop1 prop_name GNG 
+\e (01:12:52) Unknown property: 'GNG'.
+\i (01:12:52) setwindow form.editprop2
+\i (01:12:52) FORM editprop2 apply  
+\e (01:12:52) Property 'SAME_NET' requires a value.
+\e (01:12:52) Property 'HOLE_TO_SHAPE_SPACING' requires a value.
+\e (01:12:52) Property 'ASSIGN_ROUTE_LAYER' requires a value.
+\i (01:13:06) setwindow form.editprop1
+\i (01:13:06) FORM editprop1 cancel  
+\i (01:13:06) setwindow pcb
+\i (01:13:06) generaledit 
+\i (01:13:08) pick grid 151.7 68.0
+\t (01:13:08) last pick:  151.8 67.8
+\i (01:13:10) pick grid 139.2 74.7
+\t (01:13:10) last pick:  139.2 75.0
+\i (01:13:11) prepopup 139.2 74.7
+\i (01:13:24) pop dyn_option_select 'Net@:@Property edit' 
+\i (01:13:24) property edit 
+\i (01:13:37) setwindow form.editprop1
+\i (01:13:37) FORM editprop1 prop_name Bb 
+\e (01:13:37) Unknown property: 'Bb'.
+\i (01:13:37) FORM editprop1 done  
+\i (01:13:37) setwindow pcb
+\i (01:13:37) generaledit 
+\i (01:13:58) property edit 
+\i (01:14:01) setwindow form.editprop1
+\i (01:14:01) FORM editprop1 cancel  
+\i (01:14:01) setwindow pcb
+\i (01:14:01) generaledit 
+\i (01:14:35) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Setup
+\i (01:14:35) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Setup
+\i (01:14:37) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Database Preparation"
+\i (01:14:37) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Database Preparation"
+\i (01:14:38) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Placement
+\i (01:14:38) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Placement
+\i (01:14:44) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Constraints
+\i (01:14:44) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Constraints
+\i (01:14:48) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Interconnect
+\i (01:14:48) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Interconnect
+\i (01:14:56) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Utilities
+\i (01:14:56) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Utilities
+\i (01:15:14) identify nets 
+\i (01:15:20) setwindow form.fpsxidnets
+\i (01:15:20) FORM fpsxidnets fpidnnets '+12V           12 V' 
+\i (01:15:21) FORM fpsxidnets fpidnnets '+12V           12 V' 
+\i (01:15:22) FORM fpsxidnets fpidnnets '+12V           12 V' 
+\i (01:15:27) FORM fpsxidnets fpidnnets 'N15329         0 V' 
+\i (01:15:29) FORM fpsxidnets cancel  
+\i (01:15:29) setwindow pcb
+\i (01:15:29) generaledit 
+\i (01:15:40) pop net name 
+\i (01:16:24) pick grid 136.6 72.5
+\t (01:16:24) last pick:  136.8 72.6
+\i (01:16:38) pop net name 
+\i (01:18:07) pick grid 136.6 72.5
+\t (01:18:07) last pick:  136.8 72.6
+\e (01:18:09) Command not found: n
+\i (01:18:18) pick grid 137.3 72.5
+\t (01:18:18) last pick:  137.4 72.6
+\i (01:21:08) identify nets 
+\i (01:21:14) setwindow form.fpsxidnets
+\i (01:21:14) FORM fpsxidnets cancel  
+\i (01:21:14) setwindow pcb
+\i (01:21:14) generaledit 
+\i (01:21:52) xNet N15329 
+\i (01:21:52) xname_flush 
+\i (01:21:52) trapsize 1
+\i (01:22:54) xNet '!' N15329 
+\i (01:22:54) xname_flush '!' 
+\i (01:22:57) xNet N15329 
+\i (01:22:57) xname_flush 
+\i (01:22:57) trapsize 1
+\i (01:23:18) xNet '!' N15329 
+\i (01:23:18) xname_flush '!' 
+\i (01:24:11) xname_flush 
+\i (01:24:27) xname_flush '!' 
+\i (01:24:28) xname_flush 
+\i (01:24:30) xname_flush '!' 
+\i (01:24:30) xname_flush 
+\i (01:24:33) xname_flush '!' 
+\i (01:24:34) xname_flush 
+\i (01:24:36) xname_flush '!' 
+\i (01:24:37) xname_flush 
+\i (01:24:38) xname_flush '!' 
+\i (01:24:41) xname_flush 
+\i (01:24:42) xname_flush '!' 
+\i (01:24:43) xname_flush 
+\i (01:26:43) xname_flush 
+\i (01:26:43) xname_flush '!' 
+\i (01:27:03) xname_flush 
+\i (01:27:31) xname_flush 
+\i (01:27:32) xname_flush '!' 
+\i (01:27:33) xname_flush 
+\i (01:27:34) xname_flush '!' 
+\i (01:28:06) xname_flush 
+\i (01:28:18) xname_flush 
+\i (01:29:17) save 
+\i (01:29:18) fillin yes 
+\i (01:29:19) generaledit 
+\i (01:29:21) zoom out 
+\i (01:29:21) setwindow pcb
+\i (01:29:21) zoom out 135.6 68.2
+\i (01:29:21) trapsize 2
+\i (01:29:21) zoom out 
+\i (01:29:21) setwindow pcb
+\i (01:29:21) zoom out 135.7 68.2
+\i (01:29:21) trapsize 4
+\i (01:29:24) pick grid 135.4 74.7
+\t (01:29:24) last pick:  135.6 75.0
+\i (01:29:37) design sync eco 
+\t (01:29:37) > Generating Physical Netlist
+\t (01:29:37) Starting genfeedformat...
+\t (01:29:38) > Generating Physical Netlist successful
+\t (01:29:38) > Generating Differences
+\t (01:29:38) > Generating Differences successful
+\t (01:29:38) > Displaying differences output
+\t (01:29:38) > Displaying differences output successful
+\i (01:29:41) QtSignal DesignSyncDialog sync_button clicked
+\t (01:29:41) Starting Cadence Logic Import...
+\t (01:29:42) Opening existing design...
+\i (01:29:42) trapsize 4
+\i (01:29:42) generaledit 
+\i (01:30:46) design sync back_annotate 
+\t (01:30:46) > Generating Physical Netlist
+\t (01:30:46) Starting genfeedformat...
+\t (01:30:47) > Generating Physical Netlist successful
+\t (01:30:47) > Generating Differences
+\t (01:30:47) > Generating Differences failed
+\i (01:30:54) QtSignal DesignSyncDialog cancel_button clicked
+\i (01:30:54) generaledit 
+\i (01:30:56) design sync eco 
+\t (01:30:56) > Generating Physical Netlist
+\t (01:30:56) Starting genfeedformat...
+\t (01:30:57) > Generating Physical Netlist successful
+\t (01:30:57) > Generating Differences
+\t (01:30:57) > Generating Differences failed
+\i (01:30:59) QtSignal DesignSyncDialog sync_button clicked
+\t (01:30:59) Starting Cadence Logic Import...
+\t (01:31:00) Opening existing design...
+\i (01:31:01) trapsize 4
+\i (01:31:01) generaledit 
+\i (01:31:15) signal setup 
+\i (01:31:16) setwindow form.sigSetup
+\i (01:31:16) FORM sigSetup wiz_next  
+\i (01:31:16) FORM sigSetup selectedxnets  'Dsn AMP' 
+\i (01:31:18) FORM sigSetup wiz_next  
+   (01:31:18) *Error* setq/set: Variable is protected and cannot be assigned to - treeItem
+\i (01:31:19) FORM sigSetup wiz_next  
+\i (01:31:22) FORM sigSetup wiz_next  
+\i (01:31:23) FORM sigSetup wiz_next  
+   (01:31:23) *Error* setq/set: Variable is protected and cannot be assigned to - treeItem
+\i (01:31:25) FORM sigSetup definepossiblevoltageformats  
+\i (01:31:27) setwindow form.sigDefineVoltageNameFormats
+\i (01:31:27) FORM sigDefineVoltageNameFormats cancel  
+\i (01:31:28) setwindow form.sigSetup
+\i (01:31:28) FORM sigSetup wiz_next  
+\i (01:31:28) FORM sigSetup wiz_next  
+   (01:31:28) *Error* setq/set: Variable is protected and cannot be assigned to - treeItem
+\i (01:31:29) FORM sigSetup wiz_next  
+\i (01:31:29) FORM sigSetup wiz_next  
+\i (01:31:30) FORM sigSetup wiz_next  
+   (01:31:30) *Error* setq/set: Variable is protected and cannot be assigned to - treeItem
+\i (01:31:31) FORM sigSetup editvoltageonanynet  
+   (01:31:31) *Error* _fpSAGetPropOnObject: argument #1 should be a list (type template = "lt") - 1
+\i (01:31:33) FORM sigSetup cancel  
+\i (01:31:33) setwindow pcb
+\i (01:31:33) generaledit 
+\i (01:31:38) signal setup 
+\i (01:31:38) setwindow form.sigSetup
+\i (01:31:38) FORM sigSetup wiz_next  
+\i (01:31:38) FORM sigSetup selectedxnets  'Dsn AMP' 
+\i (01:31:39) FORM sigSetup wiz_next  
+   (01:31:39) *Error* setq/set: Variable is protected and cannot be assigned to - treeItem
+\i (01:31:40) FORM sigSetup wiz_next  
+\i (01:31:41) FORM sigSetup wiz_next  
+\i (01:31:41) FORM sigSetup wiz_next  
+   (01:31:41) *Error* setq/set: Variable is protected and cannot be assigned to - treeItem
+\i (01:31:43) FORM sigSetup editvoltageonanynet  
+   (01:31:43) *Error* setq/set: Variable is protected and cannot be assigned to - treeItem
+\i (01:31:45) setwindow form.fpsxidnets
+\i (01:31:45) FORM fpsxidnets fpidnnetfilter  
+\i (01:31:45) FORM fpsxidnets done  
+\i (01:31:50) FORM fpsxidnets cancel  
+\i (01:31:51) FORM fpsxidnets cancel  
+\i (01:31:52) FORM fpsxidnets apply  
+\i (01:31:52) FORM fpsxidnets done  
+\i (01:31:53) FORM fpsxidnets cancel  
+\i (01:31:54) setwindow form.sigSetup
+\i (01:31:54) FORM sigSetup cancel  
+\i (01:31:54) setwindow pcb
+\i (01:31:54) generaledit 
+\i (01:31:58) identify nets 
+\i (01:31:59) setwindow form.fpsxidnets
+\i (01:31:59) FORM fpsxidnets fpidnnets '12V            12 V' 
+\i (01:32:00) FORM fpsxidnets fpidnnets 'GND            1.5 V' 
+\i (01:32:13) FORM fpsxidnets fpidnvoltage '0 V' 
+\i (01:32:13) FORM fpsxidnets apply  
+\i (01:32:15) FORM fpsxidnets done  
+\i (01:32:15) setwindow pcb
+\i (01:32:15) generaledit 
+\i (01:32:20) save 
+\i (01:32:21) fillin yes 
+\i (01:32:22) generaledit 
+\i (01:32:23) exit 
+\t (01:32:24)     Journal end - Fri Sep 26 22:13:59 2025

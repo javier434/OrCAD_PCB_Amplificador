@@ -1,0 +1,116 @@
+
+**** 09/25/25 11:51:13 **** PSpice 22.1.0 (6 October 2022) **** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Testing"  [ C:\Users\Javier Calvo\Documents\Cadence Projects\Amplifier - Coursera\Amp-PSpiceFiles\SCHEMATIC1
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Testing.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Javier Calvo\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\22.1.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.DC LIN V_V1 0 +12 1 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source AMP
+R_R1         N14592 N14567 5k
+V_V1         N14606 N14550 DC 1v  
+X_U1         N14592 N14550 +12V 0 N14567 LM741
+R_R2         0 N14567 10k
+R_R3         N14592 N14606 1k
+
+**** RESUMING Testing.cir ****
+.END
+
+**** 09/25/25 11:51:13 **** PSpice 22.1.0 (6 October 2022) **** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Testing"  [ C:\Users\Javier Calvo\Documents\Cadence Projects\Amplifier - Coursera\Amp-PSpiceFiles\SCHEMATIC1
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.x_lm741.dx X_U1.x_lm741.dy 
+          IS  800.000000E-18  800.000000E-18 
+          RS    1               1.000000E-03 
+         CJO                   10.000000E-12 
+
+
+**** 09/25/25 11:51:13 **** PSpice 22.1.0 (6 October 2022) **** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Testing"  [ C:\Users\Javier Calvo\Documents\Cadence Projects\Amplifier - Coursera\Amp-PSpiceFiles\SCHEMATIC1
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.x_lm741.qx 
+               NPN             
+       LEVEL    1            
+          IS  800.000000E-18 
+          BF   93.75         
+          NF    1            
+          BR    1            
+          NR    1            
+         ISS    0            
+          RE    0            
+          RC    0            
+         CJE    0            
+         VJE     .75         
+         CJC    0            
+         VJC     .75         
+         MJC     .33         
+        XCJC    1            
+         CJS    0            
+         VJS     .75         
+          KF    0            
+          AF    1            
+          CN    2.42         
+           D     .87         
+
+
+
+          JOB CONCLUDED
+
+**** 09/25/25 11:51:13 **** PSpice 22.1.0 (6 October 2022) **** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Testing"  [ C:\Users\Javier Calvo\Documents\Cadence Projects\Amplifier - Coursera\Amp-PSpiceFiles\SCHEMATIC1
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .05
+

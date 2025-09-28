@@ -1,0 +1,7 @@
+A!NET_NAME!NET_LOGICAL_PATH!NET_VOLTAGE!
+J!C:/Users/Javier Calvo/Documents/Cadence Projects/Amplifier - Coursera/Amp.brd!Fri Sep 26 22:12:32 2025!0.0!0.0!297.0!210.0!0.1!millimeters!AMP!10.400000 mil!2!OUT OF DATE!
+S!N15329!@amp.schematic1(sch_1):n15329!0 V!
+S!N14584!@amp.schematic1(sch_1):n14584!!
+S!N15314!@amp.schematic1(sch_1):n15314!!
+S!N14592!@amp.schematic1(sch_1):n14592!!
+S!+12V!@amp.schematic1(sch_1):\+12v\!12 V!

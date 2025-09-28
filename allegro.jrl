@@ -1,0 +1,21 @@
+\t (00:00:09) allegro 22.1 P001 Windows SPB 64-bit Edition
+\t (00:00:09)     Journal start - Sat Sep 27 16:27:01 2025
+\t (00:00:09)         Host=WIN-VG7SVLANVPC User=Javier Calvo Pid=10780 CPUs=4
+\t (00:00:09) CmdLine= C:\Cadence\SPB_22.1\tools\bin\allegro.exe
+\t (00:00:09) 
+   (00:00:10) Loading axlcore.cxt 
+\t (00:00:10) Opening existing design...
+\i (00:00:10) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged Amp
+\d (00:00:10) Design opened: C:/Users/Javier Calvo/Documents/Cadence Projects/Amplifier - Coursera/Amp.brd
+   (00:00:11) Loading cmds.cxt 
+\i (00:00:11) trapsize 3
+\i (00:00:11) trapsize 4
+\i (00:00:11) trapsize 4
+\i (00:00:11) generaledit 
+\i (00:00:16) zoom points 
+\t (00:00:16) Pick 1st corner of the new window.
+\i (00:00:18) drag_start 119.4 88.5
+\i (00:00:21) drag_stop 164.3 67.7
+\i (00:00:21) trapsize 3
+\i (00:00:55) exit 
+\t (00:00:55)     Journal end - Sat Sep 27 16:27:47 2025

@@ -1,0 +1,165 @@
+
+**** 09/25/25 10:59:34 **** PSpice 22.1.0 (6 October 2022) **** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Users\Javier Calvo\Documents\Cadence Projects\Amplifier - Coursera\amp-pspicefiles\schematic1\bi
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "bias.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Javier Calvo\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\22.1.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source AMP
+X_U1         N14604 N14592 +12V 0 0 LM741/NS
+R_R1         N14592 N14580 10k
+V_V1         N14604 N14550   
+** Floating/unmodeled pin fixups **
+R__UC0001   N14580  0   {1/GMIN}
+
+**** RESUMING bias.cir ****
+.END
+
+**** 09/25/25 10:59:34 **** PSpice 22.1.0 (6 October 2022) **** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Users\Javier Calvo\Documents\Cadence Projects\Amplifier - Coursera\amp-pspicefiles\schematic1\bi
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.DX         
+          IS    1.000000E-15 
+
+
+**** 09/25/25 10:59:34 **** PSpice 22.1.0 (6 October 2022) **** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Users\Javier Calvo\Documents\Cadence Projects\Amplifier - Coursera\amp-pspicefiles\schematic1\bi
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.QX         
+               NPN             
+       LEVEL    1            
+          IS  100.000000E-18 
+          BF  625            
+          NF    1            
+          BR    1            
+          NR    1            
+         ISS    0            
+          RE    0            
+          RC    0            
+         CJE    0            
+         VJE     .75         
+         CJC    0            
+         VJC     .75         
+         MJC     .33         
+        XCJC    1            
+         CJS    0            
+         VJS     .75         
+          KF    0            
+          AF    1            
+          CN    2.42         
+           D     .87         
+
+
+**** 09/25/25 10:59:34 **** PSpice 22.1.0 (6 October 2022) **** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Users\Javier Calvo\Documents\Cadence Projects\Amplifier - Coursera\amp-pspicefiles\schematic1\bi
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+( +12V)    1.6702  (N14550)-53.16E+03 (N14580)-53.16E+03 (N14592)-53.16E+03     
+
+(N14604)-53.16E+03 (X_U1.3)-53.16E+03 (X_U1.4)-53.16E+03 (X_U1.5)    1.6186     
+
+(X_U1.6)    1.6701 (X_U1.7)-53.16E+03 (X_U1.8)     .0402 (X_U1.9)     .8350     
+
+(X_U1.10)    1.6300                   (X_U1.15)     .6695                       
+
+(X_U1.16)    -.8461                   (X_U1.17)     .8351                       
+
+(X_U1.20)     .1800                   (X_U1.21)    -.1800                       
+
+(X_U1.22)    0.0000                   (X_U1.23)     .6695                       
+
+(X_U1.24)     .6695                   (X_U1.25)     .1434                       
+
+(X_U1.26)     .6500                   (X_U1.27)    -.6500                       
+
+(X_U1.49)     .8351                   (X_U1.98)     .8351                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+    X_U1.V2     -2.220E-02
+    X_U1.V3     -2.231E-02
+    X_U1.V6      2.000E-14
+    X_U1.V7     -2.104E-02
+    X_U1.V5     -8.505E-13
+    X_U1.V4      1.656E-07
+
+    TOTAL POWER DISSIPATION   8.62E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 09/25/25 10:59:34 **** PSpice 22.1.0 (6 October 2022) **** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Users\Javier Calvo\Documents\Cadence Projects\Amplifier - Coursera\amp-pspicefiles\schematic1\bi
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .11
+

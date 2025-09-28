@@ -1,0 +1,100 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  C:.../Javier Calvo/Documents/Cadence Projects/Amplifier - Coursera/Amp.brd  |
+|                                                    Fri Sep 26 22:12:36 2025  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  +12V         net RENAMED (to net name listed on right)           12V          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N15329       net RENAMED (to net name listed on right)           GND          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  C:.../Javier Calvo/Documents/Cadence Projects/Amplifier - Coursera/Amp.brd  |
+|                                                    Fri Sep 26 22:12:36 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ LM741J_DIP775W46P254L1016H508Q8_LM741J
+ RESISTOR_1_RESAD700W45L350D185_DISCRETE_1K
+ RESISTOR_1_RESAD700W45L350D185_DISCRETE_5K
+ RESISTOR_1_RESAD700W45L350D185_DISCRETE_10K
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:.../Javier Calvo/Documents/Cadence Projects/Amplifier - Coursera/Amp.brd  |
+|                                                    Fri Sep 26 22:12:36 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in design                 |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R1                  RESISTOR_1_RESAD700W45L350D185_DISCRETE_5K   145.0    82.5 RESISTOR_1_RESAD700W45L350D185_5K
+ R2                  RESISTOR_1_RESAD700W45L350D185_DISCRETE_10K   145.0    75.0 RESISTOR_1_RESAD700W45L350D185_10K
+ R3                  RESISTOR_1_RESAD700W45L350D185_DISCRETE_1K   135.0    82.5 RESISTOR_1_RESAD700W45L350D185_1K
+ U2                  LM741J_DIP775W46P254L1016H508Q8_LM741J   142.5    65.0 LM741J_DIP775W46P254L1016H508Q8_LM741J
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:.../Javier Calvo/Documents/Cadence Projects/Amplifier - Coursera/Amp.brd  |
+|                                                    Fri Sep 26 22:12:36 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R1.2             145.0    82.5 PRIM_FILE      .\pstchip.dat
+ R1.2             145.0    82.5 XY             (440,110)
+ R2.2             145.0    75.0 PRIM_FILE      .\pstchip.dat
+ R2.2             145.0    75.0 XY             (640,300)
+ R3.2             135.0    82.5 PRIM_FILE      .\pstchip.dat
+ R3.2             135.0    82.5 XY             (270,220)
+ U2.4             142.5    65.0 PRIM_FILE      .\pstchip.dat
+ U2.4             142.5    65.0 XY             (500,210)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  C:.../Javier Calvo/Documents/Cadence Projects/Amplifier - Coursera/Amp.brd  |
+|                                                    Fri Sep 26 22:12:36 2025  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J1.1             130.0    77.5 CDS_PINID      \1\
+ J1.2             130.0    75.0 CDS_PINID      \2\
+ J1.3             130.0    72.5 CDS_PINID      \3\
+ R1.1             141.5    82.5 CDS_PINID      \A\
+ R1.2             148.5    82.5 CDS_PINID      \B\
+ R2.1             141.5    75.0 CDS_PINID      \A\
+ R2.2             148.5    75.0 CDS_PINID      \B\
+ R3.1             138.5    82.5 CDS_PINID      \A\
+ R3.2             131.5    82.5 CDS_PINID      \B\
+ U2.1             138.6    68.8 CDS_PINID      \OFFSET_NULL_1\
+ U2.2             138.6    66.3 CDS_PINID      \INVERTING_INPUT\
+ U2.3             138.6    63.7 CDS_PINID      \NONINVERTING_INPUT\
+ U2.4             138.6    61.2 CDS_PINID      \V-\
+ U2.5             146.4    61.2 CDS_PINID      \OFFSET_NULL_5\
+ U2.6             146.4    63.7 CDS_PINID      \OUTPUT\
+ U2.7             146.4    66.3 CDS_PINID      \V+\
+ U2.8             146.4    68.8 CDS_PINID      \NC\
+|------------------------------------------------------------------------------|
+|       Nets changed          :       2                                        |
+|       Comp definitions added:       4                                        |
+|       Components changed    :       4                                        |
+|       Pin property added    :      17                                        |
+|       Slot property added   :       8                                        |
+|                                                                              |
+|   Total ECO changes reported:      35                                        |
+|------------------------------------------------------------------------------|
